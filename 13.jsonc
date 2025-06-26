@@ -1,0 +1,90 @@
+//logs when i forward a message of tanuj's from group (bitfool) to mummy's chat
+//forwarded message
+
+
+{
+    "level": "info",
+    "ts": 1750933201.044936,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988:32@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "3AEE730B149FDA2C743D",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T10:20:00Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "every party i go to and demo we get new signups :)",
+          "contextInfo": {
+            "forwardingScore": 1,
+            "isForwarded": true,
+            "pairedMediaType": 0
+          }
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "extendedTextMessage": {
+              "text": "every party i go to and demo we get new signups :)",
+              "contextInfo": {
+                "forwardingScore": 1,
+                "isForwarded": true,
+                "pairedMediaType": 0
+              }
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "k+peEWhKjtTBpubS5KJipfqUngqPOhaBnMxiy6j7b34="
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,71 @@
+// SOMEONE-SELF:VIDEO
+// logs when mummy send me an video 
+
+{
+    "level": "info",
+    "ts": 1750937109.4799342,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "C4F1781809E891928ED0A45CA96FC529",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T11:37:52Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "video",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "videoMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7161-24/19238921_1060450302853973_7296831870068965784_n.enc?ccb=11-4&oh=01_Q5Aa1wGKaDfsbU0WfJkhCYLHklhxw8dUHde3nYC5CyUoc4E6Fg&oe=68848952&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "video/mp4",
+          "fileSHA256": "ttBwepycYshAs3ECG1jLu2cCKPAMoUWWpz3/1D+QLXw=",
+          "fileLength": 5752437,
+          "seconds": 29,
+          "mediaKey": "FxVgIWG97J0XmAd70q2rUBo3MOVGimspGpvZWB9FcYY=",
+          "height": 848,
+          "width": 480,
+          "fileEncSHA256": "KI2+/vOWFqWwC/zBGcznKYvrNYfZtYMuprWeMIYfAu8=",
+          "directPath": "/v/t62.7161-24/19238921_1060450302853973_7296831870068965784_n.enc?ccb=11-4&oh=01_Q5Aa1wGKaDfsbU0WfJkhCYLHklhxw8dUHde3nYC5CyUoc4E6Fg&oe=68848952&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750937869,
+          "JPEGThumbnail": "<base64-thumbnail>",
+          "contextInfo": {
+            "pairedMediaType": 0
+          },
+          "streamingSidecar": "r4nJaqNnj1tUYTZWF54pug3bRxj8DJRp/wk9uAdEMocvI7c5PSPoTfnoxC0j/jVO4ah06pyAnXqW4onrkl5wWsVBnOGSdJav3aiQkHIhFgbYyXl72r/hTX0LkRl3OxCE3GHiOAU1xCmMdoHRZYfPokYgGn3aC64ljn3iGbXn2pL2b0QfFOutxJIs3HZYULIdllQLp+WFGEYDLlSsHR/u0RPP55BuqE2HzRaBi4dZXO0h1ckIvmBnmORutOH5J3aNfdblXMYIGqjDWsJso6Z0BymOZDiMWR1EhHqxPF0oIAvhm0ernQWoi5XYqvBlGpAj7fVEbqgNVnNbzm2hPwnJguYlcztuXOXDRj2QCotqS/Bi0YllygZzGOSj7JQP5r0fT1AI+Bbokd0H7YaIB7xKi0WsT00MRM7wDH0aA7ro4vPpLSQ6QXz452YDnBkoYfn1c4OGsB1z/1Y+Y1ZKgI64TTYlDL9ZdT3r+h9MPWPwNfHxH7IPYDghRd/F8vDUvESyCCDtOh5cNEj6Y6w5DHL0C3rSEiBX3CShKubtwwQT+nb6/GVv64qzSnP1fUHj2pcAENlrdDVicd/oKOfzb1m+21evT3OKENHWXcKF86IxBjutY2S/61ujKmaLVnaxKcX12rf1iMFhBiBuFhmipSFMrMGylUf6aGNVww5DEubi2g8EAFZGTZNh8z/OXwCHIYa1nm8Eb1EWNEB9B5wV4qrNPUCCL+pNamy8+c4h1EHieBnJvCzfmMJjNEgGB4TK/t1mz2SFrN2kQTeKPqhu87o9fK/fK9MAl8hLU7f4Rp8L9qo6sWOG5J4xU/cVqj6DiPuhJZILfz5iRII+xvdCBwmrGxMWhDP+1DBUIzniziwzaf7KuZ4wHytCvE6D/dvHgTN7SNCGCEUhNq5Jrk6p8kyrCvDqF2MHgtgAu42wD/SpZWJEuBwGw1YrXqFaJYsA688ZK/XCOpQ0K81DQEIn6KxNn3OvqBPp1Yg1ykS58HJ6RNXO5KeYIiwM9/xy/6+aiLhcQHJnXfxerkr3EI30r6WPUKQR0Po8Os0rzhqVawkfmdsH1tHEL+Cd2JaatDh8H8Mv/nG5a12/8WsSjas6VF34UW/avWPYAgVl2CwHKuSIk3sbV64yKl+qTrFoK9CBeDEfqOxxd5slw4ypIu3RaQQZeg==",
+          "externalShareFullVideoDurationInSeconds": 0
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "2gcGAOjTL3BHbg==",
+          "senderTimestamp": 1750915666,
+          "recipientKeyHash": "aBfunAFeyLGhKA==",
+          "recipientTimestamp": 1750915531
+        },
+        "deviceListMetadataVersion": 2,
+        "messageSecret": "PFT0MfaZ9FlZqYPSE19zGsiEraMokIO90unbG8IxR6c="
+      }
+    }
+  }
+  

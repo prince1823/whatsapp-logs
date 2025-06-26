@@ -1,0 +1,192 @@
+// logs when i chooses 2 options from the poll sent by mummy i.e database and felxible schema database
+
+//these are the logs when i chooses the first option i.e "database"
+
+{
+    "level": "info",
+    "ts": 1750944138.5766482,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "3BCD0CC0DEE74C5B2B19CF036E48ED65",
+        "ServerID": 0,
+        "Type": "poll",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T13:22:18Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "pollUpdateMessage": {
+          "pollCreationMessageKey": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "0FC301BD17DC962F44FD2BAC64A0047B"
+          },
+          "vote": {
+            "encPayload": "Ooh6PuUzJmA15RZaGLyNStETpaaVkElnQKQPi6kdEeXnpuJYXMuHZWUkI/NHyEi7pxQ=",
+            "encIV": "M3OOl7yaagPo44ap"
+          },
+          "senderTimestampMS": 1750944138258
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "pollUpdateMessage": {
+              "pollCreationMessageKey": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": false,
+                "ID": "0FC301BD17DC962F44FD2BAC64A0047B"
+              },
+              "vote": {
+                "encPayload": "Ooh6PuUzJmA15RZaGLyNStETpaaVkElnQKQPi6kdEeXnpuJYXMuHZWUkI/NHyEi7pxQ=",
+                "encIV": "M3OOl7yaagPo44ap"
+              },
+              "senderTimestampMS": 1750944138258
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2
+        }
+      }
+    }
+  }
+  
+
+//these are the logs  when i chooses the second option i.e "flexible schema database"
+{
+    "level": "info",
+    "ts": 1750944138.9811454,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "6A611275C8B08B7BAC44DBD477BA0232",
+        "ServerID": 0,
+        "Type": "poll",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T13:22:18Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "pollUpdateMessage": {
+          "pollCreationMessageKey": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "0FC301BD17DC962F44FD2BAC64A0047B"
+          },
+          "vote": {
+            "encPayload": "n7zXtDgPosprNPlASJxXil/u0OqPtYMIlW2RnTeAatgCpK6daw1zqHoMnNqTF5hNcBTQ3VYWDviFiusplL5Ldi1c95FbGkLNiHrVKR0VpzokwPKM",
+            "encIV": "pLiASJnuAqFAi/t1"
+          },
+          "senderTimestampMS": 1750944138694
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "pollUpdateMessage": {
+              "pollCreationMessageKey": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": false,
+                "ID": "0FC301BD17DC962F44FD2BAC64A0047B"
+              },
+              "vote": {
+                "encPayload": "n7zXtDgPosprNPlASJxXil/u0OqPtYMIlW2RnTeAatgCpK6daw1zqHoMnNqTF5hNcBTQ3VYWDviFiusplL5Ldi1c95FbGkLNiHrVKR0VpzokwPKM",
+                "encIV": "pLiASJnuAqFAi/t1"
+              },
+              "senderTimestampMS": 1750944138694
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2
+        }
+      }
+    }
+  }
+  

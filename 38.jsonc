@@ -1,0 +1,92 @@
+// logs when i edit this event i.e changing the location from moradabad to noida 
+
+{
+    "level": "info",
+    "ts": 1750948031.2978115,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "A712797E53715F75A152C15F1EA49652",
+        "ServerID": 0,
+        "Type": "event",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T14:27:11Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "1",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "secretEncryptedMessage": {
+          "targetMessageKey": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": true,
+            "ID": "D8C092ED61ED6DCD5D94E3A145740DD8"
+          },
+          "encPayload": "fdJpAGcxkdKPyjFDeO1x+76YgRWdmZHBYgW7UBpGq2X6e3853PptGnFTyyrXxQ6LIQfgXIAok9k8osVFbMsYv3fL3PguYAUsx+LyXY71JQ2nylzIfnlDwhc1hr+DYVX9GJho71X0Rszsiky/UXd/6NtxTOn94ofdirgYwpTgnAQ+PQ23Bh6J/EPFPq+4DOP1O9fH0/XiSMKVzFjPG18zSvrFEIuG6uxtDSITFra5s2fb+b/OlqoIKcTMLBodalxhZsQTAGLEOTW1s+ObZ4fFZL9uRCJF7zUQgcw8",
+          "encIV": "C50lLDPZG1RTETz0",
+          "secretEncType": 1
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "secretEncryptedMessage": {
+              "targetMessageKey": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": true,
+                "ID": "D8C092ED61ED6DCD5D94E3A145740DD8"
+              },
+              "encPayload": "fdJpAGcxkdKPyjFDeO1x+76YgRWdmZHBYgW7UBpGq2X6e3853PptGnFTyyrXxQ6LIQfgXIAok9k8osVFbMsYv3fL3PguYAUsx+LyXY71JQ2nylzIfnlDwhc1hr+DYVX9GJho71X0Rszsiky/UXd/6NtxTOn94ofdirgYwpTgnAQ+PQ23Bh6J/EPFPq+4DOP1O9fH0/XiSMKVzFjPG18zSvrFEIuG6uxtDSITFra5s2fb+b/OlqoIKcTMLBodalxhZsQTAGLEOTW1s+ObZ4fFZL9uRCJF7zUQgcw8",
+              "encIV": "C50lLDPZG1RTETz0",
+              "secretEncType": 1
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "JLhih4rXcPon5OCMmsmWw1LfVVne1HI5zCzidrdA1VE="
+        }
+      }
+    }
+  }
+  

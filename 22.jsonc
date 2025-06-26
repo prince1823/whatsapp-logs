@@ -1,0 +1,99 @@
+// SELF-SOMEONE: 
+// logs when i send an audio to mummy's chat
+
+[
+    {
+      "level": "info",
+      "ts": 1750938440.4058087,
+      "caller": "whatsapp/service.go:291",
+      "msg": "Received WhatsApp event",
+      "EventType": "*events.Message",
+      "Payload": {
+        "Info": {
+          "Chat": "919897162900@s.whatsapp.net",
+          "Sender": "918923325988@s.whatsapp.net",
+          "IsFromMe": true,
+          "IsGroup": false,
+          "BroadcastListOwner": "",
+          "ID": "2602DB9FA0C0AC91930D16DFE0ECD48B",
+          "ServerID": 0,
+          "Type": "media",
+          "PushName": "Prince Saxena",
+          "Timestamp": "2025-06-26T11:47:20Z",
+          "Category": "",
+          "Multicast": false,
+          "MediaType": "audio",
+          "Edit": "",
+          "MsgBotInfo": {
+            "EditType": "",
+            "EditTargetID": "",
+            "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+          },
+          "MsgMetaInfo": {
+            "TargetID": "",
+            "TargetSender": ""
+          },
+          "VerifiedName": null,
+          "DeviceSentMeta": {
+            "DestinationJID": "919897162900@s.whatsapp.net",
+            "Phash": ""
+          }
+        },
+        "Message": {
+          "audioMessage": {
+            "URL": "https://mmg.whatsapp.net/v/t62.7114-24/30026696_2093903131089131_4757120378248552268_n.enc?ccb=11-4&oh=01_Q5Aa1wHmEqrv60ZeNmzs0kZX_mO79NiPPX4BhFZSaq_l50KA5w&oe=68849A19&_nc_sid=5e03e0&mms3=true",
+            "mimetype": "audio/mp4",
+            "fileSHA256": "e+dGFnEUU7BKkYREYs9Kj5dwB1r7wLsIaM8PNfOwQAo=",
+            "fileLength": 9991,
+            "seconds": 4,
+            "PTT": false,
+            "mediaKey": "ZSoTKnvB5uOgjWdVotDqynqKDZbNUIbzq4mC7CBUxZg=",
+            "fileEncSHA256": "sICIF3EeruEmdaKTQdcuI5wHoptqJxfJXxZA5cB01bU=",
+            "directPath": "/v/t62.7114-24/30026696_2093903131089131_4757120378248552268_n.enc?ccb=11-4&oh=01_Q5Aa1wHmEqrv60ZeNmzs0kZX_mO79NiPPX4BhFZSaq_l50KA5w&oe=68849A19&_nc_sid=5e03e0",
+            "mediaKeyTimestamp": 1750938439
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "pHQg9PZr7vb7akDq8k0eNvqhjX8d9DneiRpGhGPOQh4="
+        }
+      }
+    },
+    {
+      "level": "info",
+      "ts": 1750938440.4067242,
+      "caller": "whatsapp/service.go:414",
+      "msg": "Received WhatsApp message",
+      "id": "2602DB9FA0C0AC91930D16DFE0ECD48B",
+      "chat": "919897162900@s.whatsapp.net",
+      "sender": "918923325988@s.whatsapp.net",
+      "is_from_me": true
+    },
+    {
+      "level": "info",
+      "ts": 1750938440.7922304,
+      "caller": "whatsapp/service.go:291",
+      "msg": "Received WhatsApp event",
+      "EventType": "*events.Receipt",
+      "Payload": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900:4@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "MessageIDs": [
+          "2602DB9FA0C0AC91930D16DFE0ECD48B"
+        ],
+        "Timestamp": "2025-06-26T11:47:20Z",
+        "Type": "",
+        "MessageSender": ""
+      }
+    }
+  ]
+  

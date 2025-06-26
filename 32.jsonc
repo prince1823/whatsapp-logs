@@ -1,0 +1,108 @@
+// VOICE NOTES:SELF-SELF:
+// logs when i send a voice note to "me" chat
+
+
+{
+    "level": "info",
+    "ts": 1750946262.4258695,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "918923325988@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "37B833C8A169BAA79F402F1379DE12B1",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T13:57:42Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "ptt",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "918923325988@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7117-24/30220494_726491716630597_3710336743037214428_n.enc?ccb=11-4&oh=01_Q5Aa1wEIoFOVdTfhgJ7SYJMBPAzlNRLprLSCiMGykaJxZrVPaQ&oe=6884C3F3&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "audio/ogg; codecs=opus",
+          "fileSHA256": "G1dRzXBr0WCcw1CQc8oJXPkCsPmboROhIDZcFOISows=",
+          "fileLength": 5018,
+          "seconds": 2,
+          "PTT": true,
+          "mediaKey": "nglTCY3ba0ij5A5rAqtlkuaWwY5ZhvTJ//+uDkkCh9E=",
+          "fileEncSHA256": "o5wroKWwAnbuJGOF39EvpsX0LSZ8ZNx6+tN2ofPGTGE=",
+          "directPath": "/v/t62.7117-24/30220494_726491716630597_3710336743037214428_n.enc?ccb=11-4&oh=01_Q5Aa1wEIoFOVdTfhgJ7SYJMBPAzlNRLprLSCiMGykaJxZrVPaQ&oe=6884C3F3&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750946261,
+          "contextInfo": {
+            "entryPointConversionSource": "global_search_new_chat",
+            "entryPointConversionApp": "whatsapp",
+            "entryPointConversionDelaySeconds": 508783
+          },
+          "waveform": "AAAAAAACBgoLDBAPFCENAgcJDRIQFyAVIjI4Ojg1ODcxKiovNTY1PDYtKS4yLzEwLC0rKC43PjQwLzUyMDI4PA=="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "918923325988@s.whatsapp.net",
+          "message": {
+            "audioMessage": {
+              "URL": "https://mmg.whatsapp.net/v/t62.7117-24/30220494_726491716630597_3710336743037214428_n.enc?ccb=11-4&oh=01_Q5Aa1wEIoFOVdTfhgJ7SYJMBPAzlNRLprLSCiMGykaJxZrVPaQ&oe=6884C3F3&_nc_sid=5e03e0&mms3=true",
+              "mimetype": "audio/ogg; codecs=opus",
+              "fileSHA256": "G1dRzXBr0WCcw1CQc8oJXPkCsPmboROhIDZcFOISows=",
+              "fileLength": 5018,
+              "seconds": 2,
+              "PTT": true,
+              "mediaKey": "nglTCY3ba0ij5A5rAqtlkuaWwY5ZhvTJ//+uDkkCh9E=",
+              "fileEncSHA256": "o5wroKWwAnbuJGOF39EvpsX0LSZ8ZNx6+tN2ofPGTGE=",
+              "directPath": "/v/t62.7117-24/30220494_726491716630597_3710336743037214428_n.enc?ccb=11-4&oh=01_Q5Aa1wEIoFOVdTfhgJ7SYJMBPAzlNRLprLSCiMGykaJxZrVPaQ&oe=6884C3F3&_nc_sid=5e03e0",
+              "mediaKeyTimestamp": 1750946261,
+              "contextInfo": {
+                "entryPointConversionSource": "global_search_new_chat",
+                "entryPointConversionApp": "whatsapp",
+                "entryPointConversionDelaySeconds": 508783
+              },
+              "waveform": "AAAAAAACBgoLDBAPFCENAgcJDRIQFyAVIjI4Ojg1ODcxKiovNTY1PDYtKS4yLzEwLC0rKC43PjQwLzUyMDI4PA=="
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "AO+kciEPTAG95ommNtPmz8dictrTe2xHSOs+F5Lx11g="
+        }
+      }
+    }
+  }
+  

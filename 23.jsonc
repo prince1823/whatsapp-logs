@@ -1,0 +1,98 @@
+// SOMEONE-SELF:
+// logs when mummy send me an audio
+{
+    "level": "info",
+    "ts": 1750938995.2904742,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "A8E92978742E3BC676C37D3B0669FA9F",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T11:56:35Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "audio",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7114-24/21578411_1015903370531141_1311248798355213195_n.enc?ccb=11-4&oh=01_Q5Aa1wFmBhcRCSof5plRjoSEAlWnExCHeFVEj2w0trAdntte8A&oe=6884B419&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "audio/amr",
+          "fileSHA256": "ouBAw9o+t3xwZ92dN+ppVTHzrrIQFt6AkDg2X0eJLJw=",
+          "fileLength": 12422,
+          "seconds": 7,
+          "PTT": false,
+          "mediaKey": "BSSEZAYOjdk737UYrKkOErBsp5KVN7+frg04BtE65ig=",
+          "fileEncSHA256": "KbxwHqvrm7svjaP0ajg/3FwCmWD5T0U6m6KUTEf5VPk=",
+          "directPath": "/v/t62.7114-24/21578411_1015903370531141_1311248798355213195_n.enc?ccb=11-4&oh=01_Q5Aa1wFmBhcRCSof5plRjoSEAlWnExCHeFVEj2w0trAdntte8A&oe=6884B419&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750938993
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "SZAAhi68l8wcD+TJ8T+iX1Bq2b8P3olLkijM9dswHWs="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7114-24/21578411_1015903370531141_1311248798355213195_n.enc?ccb=11-4&oh=01_Q5Aa1wFmBhcRCSof5plRjoSEAlWnExCHeFVEj2w0trAdntte8A&oe=6884B419&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "audio/amr",
+          "fileSHA256": "ouBAw9o+t3xwZ92dN+ppVTHzrrIQFt6AkDg2X0eJLJw=",
+          "fileLength": 12422,
+          "seconds": 7,
+          "PTT": false,
+          "mediaKey": "BSSEZAYOjdk737UYrKkOErBsp5KVN7+frg04BtE65ig=",
+          "fileEncSHA256": "KbxwHqvrm7svjaP0ajg/3FwCmWD5T0U6m6KUTEf5VPk=",
+          "directPath": "/v/t62.7114-24/21578411_1015903370531141_1311248798355213195_n.enc?ccb=11-4&oh=01_Q5Aa1wFmBhcRCSof5plRjoSEAlWnExCHeFVEj2w0trAdntte8A&oe=6884B419&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750938993
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "SZAAhi68l8wcD+TJ8T+iX1Bq2b8P3olLkijM9dswHWs="
+        }
+      }
+    }
+  }
+  

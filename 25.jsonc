@@ -1,0 +1,97 @@
+// SELF-SOMEONE:
+// logs when i send an document to someone else i.e mummy
+
+{
+    "level": "info",
+    "ts": 1750939821.4536765,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "8F0793E8BF464F6F974845FBC102ED54",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T12:10:21Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "document",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "documentMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7119-24/23625918_585298377863840_1208326749743301179_n.enc?ccb=11-4&oh=01_Q5Aa1wGzV3I_POvtkHM13Pm_JUaFuY1JKDLnji--mmmasFcBHA&oe=6884AC0B&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "fileSHA256": "w4dZg/ULC3GlvdXYODZbkw8CZVxbj3AoYs//UrSn/wQ=",
+          "fileLength": 18360,
+          "pageCount": 1,
+          "mediaKey": "N/E41YLKSsGlhYRTyKlAqqRF5XEF0WYtKjb9dm7TFuY=",
+          "fileName": "Notice for Yogaday Registration.docx",
+          "fileEncSHA256": "gkOO4mclZdEQbJUtn4X1DRGTCv11nPI6AJClF46AQ0w=",
+          "directPath": "/v/t62.7119-24/23625918_585298377863840_1208326749743301179_n.enc?ccb=11-4&oh=01_Q5Aa1wGzV3I_POvtkHM13Pm_JUaFuY1JKDLnji--mmmasFcBHA&oe=6884AC0B&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750939820
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "documentMessage": {
+              "URL": "https://mmg.whatsapp.net/v/t62.7119-24/23625918_585298377863840_1208326749743301179_n.enc?ccb=11-4&oh=01_Q5Aa1wGzV3I_POvtkHM13Pm_JUaFuY1JKDLnji--mmmasFcBHA&oe=6884AC0B&_nc_sid=5e03e0&mms3=true",
+              "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileSHA256": "w4dZg/ULC3GlvdXYODZbkw8CZVxbj3AoYs//UrSn/wQ=",
+              "fileLength": 18360,
+              "pageCount": 1,
+              "mediaKey": "N/E41YLKSsGlhYRTyKlAqqRF5XEF0WYtKjb9dm7TFuY=",
+              "fileName": "Notice for Yogaday Registration.docx",
+              "fileEncSHA256": "gkOO4mclZdEQbJUtn4X1DRGTCv11nPI6AJClF46AQ0w=",
+              "directPath": "/v/t62.7119-24/23625918_585298377863840_1208326749743301179_n.enc?ccb=11-4&oh=01_Q5Aa1wGzV3I_POvtkHM13Pm_JUaFuY1JKDLnji--mmmasFcBHA&oe=6884AC0B&_nc_sid=5e03e0",
+              "mediaKeyTimestamp": 1750939820
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "feUC/YKTdSi8URp3Sl5Z/u+VaSgNLlB1e0xbQwR3+fA="
+        }
+      }
+    }
+  }
+  

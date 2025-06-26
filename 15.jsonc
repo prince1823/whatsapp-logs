@@ -1,0 +1,96 @@
+// IMAGES: SELF - SELF) 
+// logs when i send an image in "me" chat 
+{
+    "level": "info",
+    "ts": 1750934545.1715405,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "918923325988@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "3249E849A105B3C56A16A0C8D41EBA92",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T10:42:25Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "image",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "918923325988@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "imageMessage": {
+          "URL": "https://mmg.whatsapp.net/o1/v/t24/f2/m231/AQM-IDigZvoc_hASElurYYE4tkn9uj3yGEkXenDM-4WhE_5mL8U-PaVqm0tv9hewoS73eo3HGTJ4riUljk_-YABxWVS4BF2QZabsbf45Ew?ccb=9-4&oh=01_Q5Aa1wEb3TRUsPf_j9bIFd7kMpr5wIgGTeGcKt8CvNE5QBgr_Q&oe=6884A44C&_nc_sid=e6ed6c&mms3=true",
+          "mimetype": "image/jpeg",
+          "fileSHA256": "bP4l+MDNXrCQYTTTzep8Qo8oGufHXuyTl1Xz9n0T8o8=",
+          "fileLength": 300955,
+          "height": 1280,
+          "width": 979,
+          "mediaKey": "duH+Vkv35LS3uXRilT84y3K2UXcfkc5n4Z3nhIxJvzE=",
+          "fileEncSHA256": "PokLkItAq+cODwRWwVhbrpOv5pXbzi30gRXs5wYi9OQ=",
+          "directPath": "/o1/v/t24/f2/m231/AQM-IDigZvoc_hASElurYYE4tkn9uj3yGEkXenDM-4WhE_5mL8U-PaVqm0tv9hewoS73eo3HGTJ4riUljk_-YABxWVS4BF2QZabsbf45Ew?ccb=9-4&oh=01_Q5Aa1wEb3TRUsPf_j9bIFd7kMpr5wIgGTeGcKt8CvNE5QBgr_Q&oe=6884A44C&_nc_sid=e6ed6c",
+          "mediaKeyTimestamp": 1750934542,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/...truncated_base64...",
+          "contextInfo": {
+            "entryPointConversionSource": "global_search_new_chat",
+            "entryPointConversionApp": "whatsapp",
+            "entryPointConversionDelaySeconds": 497063,
+            "pairedMediaType": 0
+          },
+          "scansSidecar": "ZxJuAtIRnz/hyCct55loWZoMzYzyGeRGxCaxG5xJAHwm9h0PB270cw==",
+          "scanLengths": [19407, 147782, 57163, 76603],
+          "midQualityFileSHA256": "DTSqxl/Mf8aCp/R6XM1LuJki0haR1Mka+PlbA79f7CM="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "918923325988@s.whatsapp.net",
+          "message": {
+            "imageMessage": {
+              "URL": "https://mmg.whatsapp.net/o1/v/t24/f2/m231/AQM-IDigZvoc_hASElurYYE4tkn9uj3yGEkXenDM-4WhE_5mL8U-PaVqm0tv9hewoS73eo3HGTJ4riUljk_-YABxWVS4BF2QZabsbf45Ew?ccb=9-4&oh=01_Q5Aa1wEb3TRUsPf_j9bIFd7kMpr5wIgGTeGcKt8CvNE5QBgr_Q&oe=6884A44C&_nc_sid=e6ed6c&mms3=true",
+              "mimetype": "image/jpeg"
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "F2wHccc35RKqh0quopvvRtDXhvIPenwoGUyzTN0RZJ0="
+        }
+      }
+    }
+  }
+  

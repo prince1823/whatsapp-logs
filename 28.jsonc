@@ -1,0 +1,95 @@
+// logs when mummy chooses one of the option from these 3 options i.e when she chooses a frontend technology 
+{
+    "level": "info",
+    "ts": 1750943553.2321427,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "E74046D184F48D3F363F294624786D9D",
+        "ServerID": 0,
+        "Type": "poll",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T13:12:33Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2
+        },
+        "pollUpdateMessage": {
+          "pollCreationMessageKey": {
+            "remoteJID": "918923325988@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "2085DB29DB9DCA660EFAD0EC02E0F483"
+          },
+          "vote": {
+            "encPayload": "WLZ51wDe1ecpU9oeMz3x9muSugsV/u9m4T3NLCcRgGBwZQSyVUAU367nfJoKdGg5uXs=",
+            "encIV": "gpVobsyt+7Es0brY"
+          },
+          "senderTimestampMS": 1750943552318
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2
+        },
+        "pollUpdateMessage": {
+          "pollCreationMessageKey": {
+            "remoteJID": "918923325988@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "2085DB29DB9DCA660EFAD0EC02E0F483"
+          },
+          "vote": {
+            "encPayload": "WLZ51wDe1ecpU9oeMz3x9muSugsV/u9m4T3NLCcRgGBwZQSyVUAU367nfJoKdGg5uXs=",
+            "encIV": "gpVobsyt+7Es0brY"
+          },
+          "senderTimestampMS": 1750943552318
+        }
+      }
+    }
+  }
+  

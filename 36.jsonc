@@ -1,0 +1,84 @@
+// SOMEONE-SELF: 
+// logs when mummy share a contact to me
+
+
+{
+    "level": "info",
+    "ts": 1750947367.2803636,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "0A2C8175D4828F2C2022E52FAA43668B",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T14:16:07Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "vcard",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "contactMessage": {
+          "displayName": "Aarjoo",
+          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Aarjoo;;;\nFN:Aarjoo\nTEL;type=Mobile;waid=918077316519:+91 80773 16519\nEND:VCARD"
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "vn5415wc4Fu64QGZrGpmfw1R+gAZejoEK8DOAQh2IX0="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "contactMessage": {
+          "displayName": "Aarjoo",
+          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Aarjoo;;;\nFN:Aarjoo\nTEL;type=Mobile;waid=918077316519:+91 80773 16519\nEND:VCARD"
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "vn5415wc4Fu64QGZrGpmfw1R+gAZejoEK8DOAQh2IX0="
+        }
+      }
+    }
+  }
+  

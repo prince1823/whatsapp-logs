@@ -1,0 +1,70 @@
+// AUDIO:SELF-SELF: 
+// logs when i send an audio in "me" chat
+
+{
+    "level": "info",
+    "ts": 1750938282.835566,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "918923325988@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "51E0FCC032BA9E276C8FF6E6F9893844",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T11:44:42Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "audio",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "918923325988@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7114-24/13975043_1229352988272582_8839597536503408597_n.enc?ccb=11-4&oh=01_Q5Aa1wFmhxAxxjchY4L1_AGcqCn8l1VvdciJkRgNku7M36wPPw&oe=688490B5&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "audio/mp4",
+          "fileSHA256": "ybNmeoz64nLyH7LJxOu1Ncrmtjl2R5cg0o1F5DllDp8=",
+          "fileLength": 9453,
+          "seconds": 3,
+          "PTT": false,
+          "mediaKey": "n2cD6tK1G1d62pCferTkeelkJEn8pDie+DDq2G9UiKw=",
+          "fileEncSHA256": "CWuSUEQ1T8qa6q+pnb65jQD2BcnQupPMfA2ubsVS/FM=",
+          "directPath": "/v/t62.7114-24/13975043_1229352988272582_8839597536503408597_n.enc?ccb=11-4&oh=01_Q5Aa1wFmhxAxxjchY4L1_AGcqCn8l1VvdciJkRgNku7M36wPPw&oe=688490B5&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750938281,
+          "contextInfo": {
+            "entryPointConversionSource": "global_search_new_chat",
+            "entryPointConversionApp": "whatsapp",
+            "entryPointConversionDelaySeconds": 500803
+          }
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "aBfunAFeyLGhKA==",
+          "senderTimestamp": 1750915531
+        },
+        "deviceListMetadataVersion": 2,
+        "messageSecret": "LCmrM+cRAuHSvW/JUVQgcle5dj+nDLmHoIqwHyBX+0E="
+      }
+    }
+  }
+  

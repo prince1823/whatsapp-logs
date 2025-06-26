@@ -1,0 +1,102 @@
+//logs when someone forwards a message from their chats and sent it to me 
+//i.e here i am the receipent , the sender is mummy who forwards a message of some other chat to me 
+{
+    "level": "info",
+    "ts": 1750933929.4216115,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900:4@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "3EB07327ABF82EF02C0C92",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T10:32:09Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "Namaste Bhai sahab please send your address",
+          "contextInfo": {
+            "forwardingScore": 1,
+            "isForwarded": true,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 1
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "senderAccountType": 0,
+            "receiverAccountType": 0,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "VNLGEdQT2DoeST5ma5udCTvoneukss9zDTtl+MljiaU="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "Namaste Bhai sahab please send your address",
+          "contextInfo": {
+            "forwardingScore": 1,
+            "isForwarded": true,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 1
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "senderAccountType": 0,
+            "receiverAccountType": 0,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "VNLGEdQT2DoeST5ma5udCTvoneukss9zDTtl+MljiaU="
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,88 @@
+// logs when i respond to "SACHI'S BIRTHDAY EVENT"RESPONSE : "Going With Guest"
+{
+    "level": "info",
+    "ts": 1750948497.9027183,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "5F016AE05F9D640791DCBFEF07F81480",
+        "ServerID": 0,
+        "Type": "event",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T14:34:57Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "encEventResponseMessage": {
+          "eventCreationMessageKey": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "14C8292DA960A1F5D20EEBC0BF18DBD6"
+          },
+          "encPayload": "TM2FNQzNfioJOmI/Tjna3S5f94q13L6LUVDy",
+          "encIV": "tanIb3R1TSJxEoPj"
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "encEventResponseMessage": {
+              "eventCreationMessageKey": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": false,
+                "ID": "14C8292DA960A1F5D20EEBC0BF18DBD6"
+              },
+              "encPayload": "TM2FNQzNfioJOmI/Tjna3S5f94q13L6LUVDy",
+              "encIV": "tanIb3R1TSJxEoPj"
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2
+        }
+      }
+    }
+  }
+  

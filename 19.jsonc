@@ -1,0 +1,73 @@
+// SELF-SOMEONE-VIDEO
+//  logs when i send a video to mummy
+{
+    "level": "info",
+    "ts": 1750937109.4799342,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "C805DA0B20D1FD8394C3D5F769BC75E8",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T11:25:09Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "video",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "videoMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7161-24/21430897_2123510888060324_3437189422450115260_n.enc?ccb=11-4&oh=01_Q5Aa1wHCr_Iz7aK1s_CDFy908FDUnG4oneYMvjGCIKXK2fTELg&oe=6884A656&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "video/mp4",
+          "fileSHA256": "gf3g8aW/vJyl0yapFR+/EOB+R2qnvcghIpVaIyvi1Xs=",
+          "fileLength": 884709,
+          "seconds": 6,
+          "mediaKey": "p8M+YAliUgh050Da0e0QIFOteWnYknrYzGSNBAIokVU=",
+          "height": 850,
+          "width": 478,
+          "fileEncSHA256": "z6fcPcUl2+kyWn3tE756kbUhrvkicd9PuVO12SkY6+4=",
+          "directPath": "/v/t62.7161-24/21430897_2123510888060324_3437189422450115260_n.enc?ccb=11-4&oh=01_Q5Aa1wHCr_Iz7aK1s_CDFy908FDUnG4oneYMvjGCIKXK2fTELg&oe=6884A656&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750937107,
+          "JPEGThumbnail": "<base64-thumbnail>",
+          "contextInfo": {
+            "pairedMediaType": 0
+          },
+          "streamingSidecar": "T3yTzkYAqTkIzDfbVPJXWXtyHhrpo2yHeKwHoaBcsw3RIkd6SOpAFWc9utLr7/PHYHUumNdheHtGs1+YryEbUlAWuJVoYPzg2hGUCEmZPHYn/Xwo92UAhL62rKDK/iPtUCUd2iiAjV8T0n5RF/lm0H6HOayKIRju5HW/8DDZCw8FC/6beIUo9FnaGfg=",
+          "externalShareFullVideoDurationInSeconds": 0
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "aBfunAFeyLGhKA==",
+          "senderTimestamp": 1750915531,
+          "recipientKeyHash": "2gcGAOjTL3BHbg==",
+          "recipientTimestamp": 1750915666
+        },
+        "deviceListMetadataVersion": 2,
+        "messageSecret": "/7bLXvCkwNUDFS5Q1KNhyA5on7IxhFKbPldRKqBGZ4Y="
+      }
+    }
+  }
+  

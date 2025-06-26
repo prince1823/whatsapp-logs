@@ -1,0 +1,99 @@
+// EVENTS:SELF-SOMEONE: 
+// logs when i create a event,
+// event name : MISHIKA'S BIRTHDAY
+{
+    "level": "info",
+    "ts": 1750947746.5167596,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "D8C092ED61ED6DCD5D94E3A145740DD8",
+        "ServerID": 0,
+        "Type": "event",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T14:22:26Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "eventMessage": {
+          "isCanceled": false,
+          "name": "Mishika's Birthday",
+          "location": {
+            "degreesLatitude": 0,
+            "degreesLongitude": 0,
+            "name": "Moradabad"
+          },
+          "joinLink": "https://call.whatsapp.com/video/uTTqc8NEPStdhRNupFjbRt",
+          "startTime": 1751189400,
+          "endTime": 1751214600,
+          "extraGuestsAllowed": true
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "eventMessage": {
+              "isCanceled": false,
+              "name": "Mishika's Birthday",
+              "location": {
+                "degreesLatitude": 0,
+                "degreesLongitude": 0,
+                "name": "Moradabad"
+              },
+              "joinLink": "https://call.whatsapp.com/video/uTTqc8NEPStdhRNupFjbRt",
+              "startTime": 1751189400,
+              "endTime": 1751214600,
+              "extraGuestsAllowed": true
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "JLhih4rXcPon5OCMmsmWw1LfVVne1HI5zCzidrdA1VE="
+        }
+      }
+    }
+  }
+  

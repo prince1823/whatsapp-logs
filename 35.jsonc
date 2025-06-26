@@ -1,0 +1,81 @@
+// SENDING CONTACT:SELF-SOMEONE:
+// logs when i send a contact to mummy:
+
+{
+    "level": "info",
+    "ts": 1750947106.6821256,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "D849DD0E6C8229416AD1AB03C8936959",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T14:11:46Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "vcard",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "contactMessage": {
+          "displayName": "Aditya",
+          "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Aditya;;;\nFN:Aditya\nTEL;type=Mobile;waid=919410866621:+91 94108 66621\nEND:VCARD"
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "contactMessage": {
+              "displayName": "Aditya",
+              "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;Aditya;;;\nFN:Aditya\nTEL;type=Mobile;waid=919410866621:+91 94108 66621\nEND:VCARD"
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "ymlNbEMGTq94AUn5FwfdjFgjXe7+TyEYHrlKzsnPsr8="
+        }
+      }
+    }
+  }
+  

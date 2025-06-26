@@ -1,0 +1,91 @@
+// logs when mummy sends an poll to me , with 1 question and 3 options , allowing multiple answers 
+{
+    "level": "info",
+    "ts": 1750943912.8915818,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "0FC301BD17DC962F44FD2BAC64A0047B",
+        "ServerID": 0,
+        "Type": "poll",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T13:18:32Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "NRK2xZPXg6+ge8S49i8kOQCcIKBegJ6LRObPFlyeaMA="
+        },
+        "pollCreationMessageV3": {
+          "name": "What is mongodb",
+          "options": [
+            { "optionName": "Database" },
+            { "optionName": "Deployment tool" },
+            { "optionName": "Flexible Schema database" }
+          ],
+          "selectableOptionsCount": 0
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "NRK2xZPXg6+ge8S49i8kOQCcIKBegJ6LRObPFlyeaMA="
+        },
+        "pollCreationMessageV3": {
+          "name": "What is mongodb",
+          "options": [
+            { "optionName": "Database" },
+            { "optionName": "Deployment tool" },
+            { "optionName": "Flexible Schema database" }
+          ],
+          "selectableOptionsCount": 0
+        }
+      }
+    }
+  }
+  

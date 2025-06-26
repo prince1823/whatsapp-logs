@@ -1,0 +1,101 @@
+// SOMEONE-SELF:
+// logs when mummy send a voice note to me
+
+{
+    "level": "info",
+    "ts": 1750946774.8953655,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "81718DE75CD8661380341313F8CC634C",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T14:06:14Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "ptt",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7117-24/30912697_24120025154294760_5439180789060321206_n.enc?ccb=11-4&oh=01_Q5Aa1wElBz0YqegeKGkE0xC9Z5Tj8kYzU8R2O7k7N18I9bS_6w&oe=6884C745&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "audio/ogg; codecs=opus",
+          "fileSHA256": "z+wBsGYAeQLPE9KtMI1Ike6DIhbqMVpWSlxFUdLE0og=",
+          "fileLength": 11196,
+          "seconds": 4,
+          "PTT": true,
+          "mediaKey": "6R9qTKWFSdbDNevm4395ATukKSaTlq0pxXuv/jL7BRg=",
+          "fileEncSHA256": "LZN50NF3AA3ppGiun6ij5QMqzfEG7OuBUPfISyWCn4w=",
+          "directPath": "/v/t62.7117-24/30912697_24120025154294760_5439180789060321206_n.enc?ccb=11-4&oh=01_Q5Aa1wElBz0YqegeKGkE0xC9Z5Tj8kYzU8R2O7k7N18I9bS_6w&oe=6884C745&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750946770,
+          "waveform": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "/T6TMTF/0kpROE55qriJOpuNX4LtCtEblv7gfJZ5wxo="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7117-24/30912697_24120025154294760_5439180789060321206_n.enc?ccb=11-4&oh=01_Q5Aa1wElBz0YqegeKGkE0xC9Z5Tj8kYzU8R2O7k7N18I9bS_6w&oe=6884C745&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "audio/ogg; codecs=opus",
+          "fileSHA256": "z+wBsGYAeQLPE9KtMI1Ike6DIhbqMVpWSlxFUdLE0og=",
+          "fileLength": 11196,
+          "seconds": 4,
+          "PTT": true,
+          "mediaKey": "6R9qTKWFSdbDNevm4395ATukKSaTlq0pxXuv/jL7BRg=",
+          "fileEncSHA256": "LZN50NF3AA3ppGiun6ij5QMqzfEG7OuBUPfISyWCn4w=",
+          "directPath": "/v/t62.7117-24/30912697_24120025154294760_5439180789060321206_n.enc?ccb=11-4&oh=01_Q5Aa1wElBz0YqegeKGkE0xC9Z5Tj8kYzU8R2O7k7N18I9bS_6w&oe=6884C745&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750946770,
+          "waveform": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "/T6TMTF/0kpROE55qriJOpuNX4LtCtEblv7gfJZ5wxo="
+        }
+      }
+    }
+  }
+  

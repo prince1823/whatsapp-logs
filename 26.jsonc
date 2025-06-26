@@ -1,0 +1,111 @@
+// SOMEONE-SELF:
+//  logs when mummy send an document to me
+
+{
+    "level": "info",
+    "ts": 1750942770.927933,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "41EDD1DC0E7F3D2BB44718367DE3ED9B",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T12:59:30Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "document",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "documentMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7119-24/13763955_613647558426559_3993423385424064279_n.enc?ccb=11-4&oh=01_Q5Aa1wGNO4ZAw4BH1hPv5rgL9LeswyLmUFsbeyT8QID3PBC2PQ&oe=6884B52E&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "application/pdf",
+          "fileSHA256": "bZMPY1bNLNy1rt9s0R2AiYAW0rZJv7xvS6IaKn15p44=",
+          "fileLength": 109715,
+          "pageCount": 2,
+          "mediaKey": "LJ5dmpOax24tbpQUM6MSMCoaGTXVA37zcu5sXxBlKmg=",
+          "fileName": "harshi passport.pdf",
+          "fileEncSHA256": "TXOrcjuuD5eRA8DO8v8fRaJPkzZXhImYh2Mu3DWEeFo=",
+          "directPath": "/v/t62.7119-24/13763955_613647558426559_3993423385424064279_n.enc?ccb=11-4&oh=01_Q5Aa1wGNO4ZAw4BH1hPv5rgL9LeswyLmUFsbeyT8QID3PBC2PQ&oe=6884B52E&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750942768,
+          "thumbnailDirectPath": "/v/t62.36145-24/31811028_1785912425655869_6620965091979792880_n.enc?ccb=11-4&oh=01_Q5Aa1wGiQiW5SjUxHXbqM4aXMj9CUOO-l9b_NbEg3CW9rnhNdA&oe=6884AAF9&_nc_sid=5e03e0",
+          "thumbnailSHA256": "zT+8O4/J9y/512kczkMErihAyD2q77A+ptmGRpTuvi4=",
+          "thumbnailEncSHA256": "S7mISVrLgW3sbfG2mHisQFa5td0KcZtOqpR+YGBqMXQ=",
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujKKIgYiixbCwxfjr+P/////CABEIAGAARAMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAQMEAgUGAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAD7yIkU3jz9doAAzZ9Wc24t1JeiQADP3XadYPRymmQAAxUbeS3i4JiQADMm07w6aTT0glEgHHWfg11spuV2gBA",
+          "thumbnailHeight": 480,
+          "thumbnailWidth": 339
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "GtMr6wBRfpIlib6nYe2xHdAN5L0u0XliJcsgPcDJeTc="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "documentMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7119-24/13763955_613647558426559_3993423385424064279_n.enc?ccb=11-4&oh=01_Q5Aa1wGNO4ZAw4BH1hPv5rgL9LeswyLmUFsbeyT8QID3PBC2PQ&oe=6884B52E&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "application/pdf",
+          "fileSHA256": "bZMPY1bNLNy1rt9s0R2AiYAW0rZJv7xvS6IaKn15p44=",
+          "fileLength": 109715,
+          "pageCount": 2,
+          "mediaKey": "LJ5dmpOax24tbpQUM6MSMCoaGTXVA37zcu5sXxBlKmg=",
+          "fileName": "harshi passport.pdf",
+          "fileEncSHA256": "TXOrcjuuD5eRA8DO8v8fRaJPkzZXhImYh2Mu3DWEeFo=",
+          "directPath": "/v/t62.7119-24/13763955_613647558426559_3993423385424064279_n.enc?ccb=11-4&oh=01_Q5Aa1wGNO4ZAw4BH1hPv5rgL9LeswyLmUFsbeyT8QID3PBC2PQ&oe=6884B52E&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750942768,
+          "thumbnailDirectPath": "/v/t62.36145-24/31811028_1785912425655869_6620965091979792880_n.enc?ccb=11-4&oh=01_Q5Aa1wGiQiW5SjUxHXbqM4aXMj9CUOO-l9b_NbEg3CW9rnhNdA&oe=6884AAF9&_nc_sid=5e03e0",
+          "thumbnailSHA256": "zT+8O4/J9y/512kczkMErihAyD2q77A+ptmGRpTuvi4=",
+          "thumbnailEncSHA256": "S7mISVrLgW3sbfG2mHisQFa5td0KcZtOqpR+YGBqMXQ=",
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujKKIgYiixbCwxfjr+P/////CABEIAGAARAMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAQMEAgUGAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAD7yIkU3jz9doAAzZ9Wc24t1JeiQADP3XadYPRymmQAAxUbeS3i4JiQADMm07w6aTT0glEgHHWfg11spuV2gBA",
+          "thumbnailHeight": 480,
+          "thumbnailWidth": 339
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "GtMr6wBRfpIlib6nYe2xHdAN5L0u0XliJcsgPcDJeTc="
+        }
+      }
+    }
+  }
+  

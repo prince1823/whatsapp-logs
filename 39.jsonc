@@ -1,0 +1,100 @@
+// logs when mummy sends an event to me:
+
+{
+    "level": "info",
+    "ts": 1750948306.9151852,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "14C8292DA960A1F5D20EEBC0BF18DBD6",
+        "ServerID": 0,
+        "Type": "event",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T14:31:46Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "CpBZbfw+Htwjpag04c5ERrgCDGmyLfFw4yB/zcp0s5c="
+        },
+        "eventMessage": {
+          "isCanceled": false,
+          "name": "Sachi 's Birthday",
+          "location": {
+            "degreesLatitude": 0,
+            "degreesLongitude": 0,
+            "name": "Delhi"
+          },
+          "joinLink": "https://call.whatsapp.com/video/BsO89MRm3yFXyPkZetgiig",
+          "startTime": 1750951800,
+          "endTime": 1750955400,
+          "extraGuestsAllowed": true
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "CpBZbfw+Htwjpag04c5ERrgCDGmyLfFw4yB/zcp0s5c="
+        },
+        "eventMessage": {
+          "isCanceled": false,
+          "name": "Sachi 's Birthday",
+          "location": {
+            "degreesLatitude": 0,
+            "degreesLongitude": 0,
+            "name": "Delhi"
+          },
+          "joinLink": "https://call.whatsapp.com/video/BsO89MRm3yFXyPkZetgiig",
+          "startTime": 1750951800,
+          "endTime": 1750955400,
+          "extraGuestsAllowed": true
+        }
+      }
+    }
+  }
+  

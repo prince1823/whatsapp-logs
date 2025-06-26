@@ -1,0 +1,94 @@
+// logs when i deselects option 1 i.e "database"
+{
+    "level": "info",
+    "ts": 1750945931.4242945,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "438A9D028DFD06BA678418144E01C5DC",
+        "ServerID": 0,
+        "Type": "poll",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T13:52:11Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "pollUpdateMessage": {
+          "pollCreationMessageKey": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "0FC301BD17DC962F44FD2BAC64A0047B"
+          },
+          "vote": {
+            "encPayload": "KUjvSpIdBfYQd8jA9V1SnRfKrGgqsMh1tTso4V9lfYZ94i25KgmGJNgU9U5dTeeYkF8=",
+            "encIV": "WhH5aH1jtKZWSs2I"
+          },
+          "senderTimestampMS": 1750945930962
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "pollUpdateMessage": {
+              "pollCreationMessageKey": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": false,
+                "ID": "0FC301BD17DC962F44FD2BAC64A0047B"
+              },
+              "vote": {
+                "encPayload": "KUjvSpIdBfYQd8jA9V1SnRfKrGgqsMh1tTso4V9lfYZ94i25KgmGJNgU9U5dTeeYkF8=",
+                "encIV": "WhH5aH1jtKZWSs2I"
+              },
+              "senderTimestampMS": 1750945930962
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2
+        }
+      }
+    }
+  }
+  

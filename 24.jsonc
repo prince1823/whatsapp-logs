@@ -1,0 +1,59 @@
+// FILES,
+//  DOCUMENTS:SELF-SELF:
+//   logs when i send an document to "me " chat
+
+
+{
+    "level": "info",
+    "ts": 1750939379.404411,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "918923325988@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "1D63694636373D76F440635F267E6678",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T12:02:59Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "document",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "918923325988@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "documentMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7119-24/40911403_1247272613771364_7312952037820730667_n.enc?ccb=11-4&oh=01_Q5Aa1wFHso9aPJsOhKW1bYQBmxBxncHzR42CuU3EerNzKIfdEw&oe=6884A0C7&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "application/pdf",
+          "fileSHA256": "iFJ5nDVBT/TiAkCrSDFWsplr2s4o5E5+piEDA7+F+1c=",
+          "fileLength": 436590,
+          "pageCount": 4,
+          "mediaKey": "3d151wT+vzZIa+hp04/9SBccA2ZRth/nN7vNXsLS9nI=",
+          "fileName": "Placement-Calendar-Session 2024-25.pdf",
+          "fileEncSHA256": "/bev8dbXFLlMSCXsqkk/Dhe1K+YPIkgxcVD82/KNnew=",
+          "directPath": "/v/t62.7119-24/40911403_1247272613771364_7312952037820730667_n.enc?ccb=11-4&oh=01_Q5Aa1wFHso9aPJsOhKW1bYQBmxBxncHzR42CuU3EerNzKIfdEw&oe=6884A0C7&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1750939377
+        }
+      }
+    }
+  }
+  

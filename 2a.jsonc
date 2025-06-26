@@ -1,0 +1,95 @@
+ //logs when i tag this message of mummy "Ok will prepare some pasta for you" and reply with "ok sure make it delicious"
+
+ {
+    "level": "info",
+    "ts": 1750919435.3292987,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "A8A020331A0DFAD948EAC92062969F11",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T06:30:35Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "ok sure make it delicious",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "2D691A9C2735735C4F2A860D74AE2C76",
+            "participant": "919897162900@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "Ok will prepare some pasta for you"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "extendedTextMessage": {
+              "text": "ok sure make it delicious",
+              "previewType": 0,
+              "contextInfo": {
+                "stanzaID": "2D691A9C2735735C4F2A860D74AE2C76",
+                "participant": "919897162900@s.whatsapp.net",
+                "quotedMessage": {
+                  "conversation": "Ok will prepare some pasta for you"
+                }
+              },
+              "inviteLinkGroupTypeV2": 0
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "ETUFisxGfhA9cJ4UmNyx7J1TT3oFflpjlmt/OjoomP0="
+        }
+      }
+    }
+  }

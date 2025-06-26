@@ -1,0 +1,84 @@
+//logs when i reply with tagging a message of mum(member of group testing 01) and giving a reply with text message "Yeahhh cool okay sure bye bye"
+  //tagged message is "Ok will make sure to use this group only for testing purposes"
+  {
+    "level": "info",
+    "ts": 1750920457.2975326,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "120363420601915570@g.us",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": true,
+        "BroadcastListOwner": "",
+        "ID": "F4A3B641BB3E8FF59AB3303C03BA64E4",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T06:47:37Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "Yeahhh cool okay sure bye bye",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "AC590444F79C64C961039A1023D2B185",
+            "participant": "919897162900@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "Ok will make sure to use this group only for testing purposes"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "messageSecret": "yVzj3uNEyPeR9q9LwnUhOACCQRld4ML9Iiok3xWRFV8="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "Yeahhh cool okay sure bye bye",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "AC590444F79C64C961039A1023D2B185",
+            "participant": "919897162900@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "Ok will make sure to use this group only for testing purposes"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "messageSecret": "yVzj3uNEyPeR9q9LwnUhOACCQRld4ML9Iiok3xWRFV8="
+        }
+      }
+    }
+  }
+  

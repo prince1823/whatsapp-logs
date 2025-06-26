@@ -1,8 +1,8 @@
-//LOGS OF SIMPLE TEXT MESSAGE FROM Mummy->ME(cloop installed) , the message is "ok will prepare some paste for you"
-
+//logs when mummy replied to my message "heyy prepare some breakfast for me"  by tagging it and reply with "make it yourself"
+//i.e replies with tagging a previous message 
 {
     "level": "info",
-    "ts": 1750917020.7800074,
+    "ts": 1750919738.129806,
     "caller": "whatsapp/service.go:291",
     "msg": "Received WhatsApp event",
     "EventType": "*events.Message",
@@ -13,11 +13,11 @@
         "IsFromMe": false,
         "IsGroup": false,
         "BroadcastListOwner": "",
-        "ID": "2D691A9C2735735C4F2A860D74AE2C76",
+        "ID": "59B2E1F0F01A09DB4DFB5EB8AF5C468C",
         "ServerID": 0,
         "Type": "text",
         "PushName": "Soni Saxena",
-        "Timestamp": "2025-06-26T05:50:20Z",
+        "Timestamp": "2025-06-26T06:35:37Z",
         "Category": "",
         "Multicast": false,
         "MediaType": "",
@@ -35,7 +35,18 @@
         "DeviceSentMeta": null
       },
       "Message": {
-        "conversation": "Ok will prepare some pasta for you",
+        "extendedTextMessage": {
+          "text": "Make it yourself",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "3A441CDB486D463D1AAD",
+            "participant": "918923325988@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "heyy prepare breakfast for me"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
         "messageContextInfo": {
           "deviceListMetadata": {
             "senderKeyHash": "2gcGAOjTL3BHbg==",
@@ -44,7 +55,7 @@
             "recipientTimestamp": 1750915531
           },
           "deviceListMetadataVersion": 2,
-          "messageSecret": "aYjVqaPZZpp6/8jYTV8CPmy8UvDE1awT/nWfxQvbv7Q="
+          "messageSecret": "Cq6ztzL9w2QEPwr8ykWtPIPfDhuWHXthjgaZpdBieeU="
         }
       },
       "IsEphemeral": false,
@@ -59,7 +70,18 @@
       "RetryCount": 0,
       "NewsletterMeta": null,
       "RawMessage": {
-        "conversation": "Ok will prepare some pasta for you",
+        "extendedTextMessage": {
+          "text": "Make it yourself",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "3A441CDB486D463D1AAD",
+            "participant": "918923325988@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "heyy prepare breakfast for me"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
         "messageContextInfo": {
           "deviceListMetadata": {
             "senderKeyHash": "2gcGAOjTL3BHbg==",
@@ -68,7 +90,7 @@
             "recipientTimestamp": 1750915531
           },
           "deviceListMetadataVersion": 2,
-          "messageSecret": "aYjVqaPZZpp6/8jYTV8CPmy8UvDE1awT/nWfxQvbv7Q="
+          "messageSecret": "Cq6ztzL9w2QEPwr8ykWtPIPfDhuWHXthjgaZpdBieeU="
         }
       }
     }

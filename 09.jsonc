@@ -1,25 +1,24 @@
-
-
-//SELF-SELF →NORMAL TEXT: when i send a text message to "me" chat  
+//logs when i send a normal text with link in the chat 
+//sender is me , receiver is mummy
 
 {
     "level": "info",
-    "ts": 1750924741.890043,
+    "ts": 1750930233.8733668,
     "caller": "whatsapp/service.go:291",
     "msg": "Received WhatsApp event",
     "EventType": "*events.Message",
     "Payload": {
       "Info": {
-        "Chat": "918923325988@s.whatsapp.net",
+        "Chat": "919897162900@s.whatsapp.net",
         "Sender": "918923325988@s.whatsapp.net",
         "IsFromMe": true,
         "IsGroup": false,
         "BroadcastListOwner": "",
-        "ID": "44EE46E3BEA111D8E7D9D58B9DA0D7CF",
+        "ID": "25A5142CBE2FD345CA5A4CD025C7A881",
         "ServerID": 0,
         "Type": "text",
         "PushName": "Prince Saxena",
-        "Timestamp": "2025-06-26T07:59:01Z",
+        "Timestamp": "2025-06-26T09:30:33Z",
         "Category": "",
         "Multicast": false,
         "MediaType": "",
@@ -35,21 +34,12 @@
         },
         "VerifiedName": null,
         "DeviceSentMeta": {
-          "DestinationJID": "918923325988@s.whatsapp.net",
+          "DestinationJID": "919897162900@s.whatsapp.net",
           "Phash": ""
         }
       },
       "Message": {
-        "extendedTextMessage": {
-          "text": "Hii, I am Prince , Currently working at cloop",
-          "previewType": 0,
-          "contextInfo": {
-            "entryPointConversionSource": "global_search_new_chat",
-            "entryPointConversionApp": "whatsapp",
-            "entryPointConversionDelaySeconds": 487262
-          },
-          "inviteLinkGroupTypeV2": 0
-        }
+        "conversation": "My father favorite website is https://timesofindia.indiatimes.com/"
       },
       "IsEphemeral": false,
       "IsViewOnce": false,
@@ -64,27 +54,20 @@
       "NewsletterMeta": null,
       "RawMessage": {
         "deviceSentMessage": {
-          "destinationJID": "918923325988@s.whatsapp.net",
+          "destinationJID": "919897162900@s.whatsapp.net",
           "message": {
-            "extendedTextMessage": {
-              "text": "Hii, I am Prince , Currently working at cloop",
-              "previewType": 0,
-              "contextInfo": {
-                "entryPointConversionSource": "global_search_new_chat",
-                "entryPointConversionApp": "whatsapp",
-                "entryPointConversionDelaySeconds": 487262
-              },
-              "inviteLinkGroupTypeV2": 0
-            }
+            "conversation": "My⁠ father favorite website is https://timesofindia.indiatimes.com/"
           }
         },
         "messageContextInfo": {
           "deviceListMetadata": {
             "senderKeyHash": "aBfunAFeyLGhKA==",
-            "senderTimestamp": 1750915531
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
           },
           "deviceListMetadataVersion": 2,
-          "messageSecret": "/fkNbe0IlPk5Hbaw5fgbPyvnpA4J0qzV3QonkaEYfVo="
+          "messageSecret": "Cq5V7a0o5aan5HcgdHpgpnm/P6o4OQQJRWAhViroWXw="
         }
       }
     }

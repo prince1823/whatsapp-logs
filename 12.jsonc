@@ -1,0 +1,34 @@
+
+//LINK SHARING: when i share a link to "me chat "
+
+{
+    "level": "info",
+    "ts": 1750925069.7775497,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "918923325988@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "ID": "C8B4F8F2ADC100CCA33A6AE164CA9085",
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T08:04:29Z",
+        "MediaType": "url"
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "https://t.me/+Kq2OiSoz7ZViZjNl",
+          "matchedText": "https://t.me/+Kq2OiSoz7ZViZjNl",
+          "title": "Namaste node js",
+          "previewType": 0
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false
+    }
+  }
+  

@@ -1,0 +1,99 @@
+//logs of mummy->me , normal text message "Sure I will prepare the lunch by 2pm(edited)" 
+
+
+{
+    "level": "info",
+    "ts": 1750918880.9791121,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "3C2618B52EEEB89BA87A0F0546C6B506",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T06:21:20Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "1",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "protocolMessage": {
+          "key": {
+            "remoteJID": "918923325988@s.whatsapp.net",
+            "fromMe": true,
+            "ID": "3C42C604243804E7E0EE39DC5DB4917E"
+          },
+          "type": 14,
+          "editedMessage": {
+            "conversation": "Sure I will prepare the lunch by 2pm"
+          },
+          "timestampMS": 1750918880558
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "KAvDP3sw35Cr5OAkZ++EftepUPSxCpraP8RicbT88Ig="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "protocolMessage": {
+          "key": {
+            "remoteJID": "918923325988@s.whatsapp.net",
+            "fromMe": true,
+            "ID": "3C42C604243804E7E0EE39DC5DB4917E"
+          },
+          "type": 14,
+          "editedMessage": {
+            "conversation": "Sure I will prepare the lunch by 2pm"
+          },
+          "timestampMS": 1750918880558
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "KAvDP3sw35Cr5OAkZ++EftepUPSxCpraP8RicbT88Ig="
+        }
+      }
+    }
+  }
+  

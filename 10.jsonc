@@ -1,0 +1,221 @@
+//logs when me->sends an video link of youtube in the group testing 01
+
+{
+    "level": "info",
+    "ts": 1750920943.3772757,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "120363420601915570@g.us",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": true,
+        "BroadcastListOwner": "",
+        "ID": "BBA42E23A51B4EF8BA9A3BD8BFDD0EEA",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T06:55:43Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "url",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida/all purpose flour. Mix and let it cook for a minute only or till light gold...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHY... (truncated for readability)",
+          "thumbnailDirectPath": "/v/t62.36144-24/28782494_1066183824945781_1348846212398540310_n.enc?ccb=11-4&oh=01_Q5Aa1wFuFICfrY7WYsgzP_YCX056UMzRdsWd_wo5AW6zdCgqGw&oe=68846B4A&_nc_sid=5e03e0",
+          "thumbnailSHA256": "PaWYzBXmsHTh+FHkjJTMeXPa8imky4DGwbdgh/N7vIQ=",
+          "thumbnailEncSHA256": "66KehxsjnWutji7gJKqUJrTbDdkyCurI2GoI4jJIG/o=",
+          "mediaKey": "8q2U5phcKdbn3yNDgSlsKZlBEUH+ObLJZiDnPil/9Nc=",
+          "mediaKeyTimestamp": 1750920939,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "inviteLinkGroupTypeV2": 0,
+          "faviconMMSMetadata": {
+            "thumbnailDirectPath": "/v/t62.36144-24/30979264_1246558960375074_5431693917830530574_n.enc?ccb=11-4&oh=01_Q5Aa1wHuFZ5_08nuEgvSSo0pRJRFFx0as7PdIGg0itGB6m7boA&oe=688454F6&_nc_sid=5e03e0",
+            "thumbnailSHA256": "nOTybK2cR9n8FBA2frQgan9Gq6BAILTEDsL4/dMI/kM=",
+            "thumbnailEncSHA256": "2LeNyodYc7OcPIzXhsEjsdGpN2pX5n+MVD1sVj4B2J4=",
+            "mediaKey": "F3WMc4w5qvF1iLHeexQPc3WM0HkXU11jiQaTw+P8otM=",
+            "mediaKeyTimestamp": 1750920939,
+            "thumbnailHeight": 36,
+            "thumbnailWidth": 36
+          }
+        },
+        "messageContextInfo": {
+          "messageSecret": "1+voOEBy6whamVAaZojLJYJyNAF+ocPv1BzDhkJhso4="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida/all purpose flour. Mix and let it cook for a minute only or till light gold...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHY... (truncated)",
+          "thumbnailDirectPath": "/v/t62.36144-24/28782494_1066183824945781_1348846212398540310_n.enc?ccb=11-4&oh=01_Q5Aa1wFuFICfrY7WYsgzP_YCX056UMzRdsWd_wo5AW6zdCgqGw&oe=68846B4A&_nc_sid=5e03e0",
+          "thumbnailSHA256": "PaWYzBXmsHTh+FHkjJTMeXPa8imky4DGwbdgh/N7vIQ=",
+          "thumbnailEncSHA256": "66KehxsjnWutji7gJKqUJrTbDdkyCurI2GoI4jJIG/o=",
+          "mediaKey": "8q2U5phcKdbn3yNDgSlsKZlBEUH+ObLJZiDnPil/9Nc=",
+          "mediaKeyTimestamp": 1750920939,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "inviteLinkGroupTypeV2": 0,
+          "faviconMMSMetadata": {
+            "thumbnailDirectPath": "/v/t62.36144-24/30979264_1246558960375074_5431693917830530574_n.enc?ccb=11-4&oh=01_Q5Aa1wHuFZ5_08nuEgvSSo0pRJRFFx0as7PdIGg0itGB6m7boA&oe=688454F6&_nc_sid=5e03e0",
+            "thumbnailSHA256": "nOTybK2cR9n8FBA2frQgan9Gq6BAILTEDsL4/dMI/kM=",
+            "thumbnailEncSHA256": "2LeNyodYc7OcPIzXhsEjsdGpN2pX5n+MVD1sVj4B2J4=",
+            "mediaKey": "F3WMc4w5qvF1iLHeexQPc3WM0HkXU11jiQaTw+P8otM=",
+            "mediaKeyTimestamp": 1750920939,
+            "thumbnailHeight": 36,
+            "thumbnailWidth": 36
+          }
+        },
+        "messageContextInfo": {
+          "messageSecret": "1+voOEBy6whamVAaZojLJYJyNAF+ocPv1BzDhkJhso4="
+        }
+      }
+    }
+  }
+  
+
+  //logs when other member of group(i.e mummy)->sends an video link of youtube in the group testing 01
+
+  {
+    "level": "info",
+    "ts": 1750921208.0320098,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "120363420601915570@g.us",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": true,
+        "BroadcastListOwner": "",
+        "ID": "B8279B86F5BDFA0DAD73BBD5AC31E16A",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T07:00:07Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "url",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida/all purpose flour. Mix and let it cook for a minute only or till light gold...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "JPEGThumbnail": "[...truncated base64 thumbnail...]",
+          "thumbnailDirectPath": "/v/t62.36144-24/14769752_747377574460573_6715647397652436392_n.enc?ccb=11-4&oh=01_Q5Aa1wG6KxE3vwc4GjlMddBkskdQhBP0wIDt8seyZ-hEKhLFLA&oe=688472B7&_nc_sid=5e03e0",
+          "thumbnailSHA256": "ACplQK3nEGYRB2+eTrjJI5cEfilJwZ2Poen1MVn1reI=",
+          "thumbnailEncSHA256": "KM+8BhLBoAWbDL0XiJpVsVtw8FGLuadYzf5/oV92gDs=",
+          "mediaKey": "6t5NE+m29NXrz6gXEdAawoNQnkuahu89Z2cmL9zQSiw=",
+          "mediaKeyTimestamp": 1750921206,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "inviteLinkGroupTypeV2": 0,
+          "faviconMMSMetadata": {
+            "thumbnailDirectPath": "/v/t62.36144-24/30979937_1754238935180585_4702254488502052939_n.enc?ccb=11-4&oh=01_Q5Aa1wF3yTt9qUC2Orprqv8Cud8RVMILMXqhkCV_1LDqUmkPVQ&oe=68845B92&_nc_sid=5e03e0",
+            "thumbnailSHA256": "H2Be60yyWubEbUc5FWDsBl47g4HYg+5ZkhgYzMF2Yw4=",
+            "thumbnailEncSHA256": "h8hQ83JtzvrjWStch5y1WzVVHvhRy1z8nE3jDVKL1N0=",
+            "mediaKey": "KEimwAd0uFWrCoa59da5M83Jmk8Vq99WwhtXXtsBMfU=",
+            "mediaKeyTimestamp": 1750921206,
+            "thumbnailHeight": 36,
+            "thumbnailWidth": 36
+          }
+        },
+        "messageContextInfo": {
+          "messageSecret": "Kn1tRn7s7ZarK1HWJ8EdS2qeRIOUmmEOfESTtmmrqLI="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida/all purpose flour. Mix and let it cook for a minute only or till light gold...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "JPEGThumbnail": "[...truncated base64 thumbnail...]",
+          "thumbnailDirectPath": "/v/t62.36144-24/14769752_747377574460573_6715647397652436392_n.enc?ccb=11-4&oh=01_Q5Aa1wG6KxE3vwc4GjlMddBkskdQhBP0wIDt8seyZ-hEKhLFLA&oe=688472B7&_nc_sid=5e03e0",
+          "thumbnailSHA256": "ACplQK3nEGYRB2+eTrjJI5cEfilJwZ2Poen1MVn1reI=",
+          "thumbnailEncSHA256": "KM+8BhLBoAWbDL0XiJpVsVtw8FGLuadYzf5/oV92gDs=",
+          "mediaKey": "6t5NE+m29NXrz6gXEdAawoNQnkuahu89Z2cmL9zQSiw=",
+          "mediaKeyTimestamp": 1750921206,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "inviteLinkGroupTypeV2": 0,
+          "faviconMMSMetadata": {
+            "thumbnailDirectPath": "/v/t62.36144-24/30979937_1754238935180585_4702254488502052939_n.enc?ccb=11-4&oh=01_Q5Aa1wF3yTt9qUC2Orprqv8Cud8RVMILMXqhkCV_1LDqUmkPVQ&oe=68845B92&_nc_sid=5e03e0",
+            "thumbnailSHA256": "H2Be60yyWubEbUc5FWDsBl47g4HYg+5ZkhgYzMF2Yw4=",
+            "thumbnailEncSHA256": "h8hQ83JtzvrjWStch5y1WzVVHvhRy1z8nE3jDVKL1N0=",
+            "mediaKey": "KEimwAd0uFWrCoa59da5M83Jmk8Vq99WwhtXXtsBMfU=",
+            "mediaKeyTimestamp": 1750921206,
+            "thumbnailHeight": 36,
+            "thumbnailWidth": 36
+          }
+        },
+        "messageContextInfo": {
+          "messageSecret": "Kn1tRn7s7ZarK1HWJ8EdS2qeRIOUmmEOfESTtmmrqLI="
+        }
+      }
+    }
+  }
+  

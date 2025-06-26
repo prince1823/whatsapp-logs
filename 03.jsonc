@@ -1,0 +1,82 @@
+
+//LOGS OF WHEN ME->MUMMY, AN HYPERLINK OF YOUTUBE 
+
+{
+    "level": "info",
+    "ts": 1750917580.2024195,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "ID": "5AA2241B307703A7CC32529E5A2559E3",
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T05:59:40Z",
+        "MediaType": "url",
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        },
+        "MsgBotInfo": {},
+        "MsgMetaInfo": {}
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida/all purpose flour. Mix and let it cook for a minute only or till light gold...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "thumbnailDirectPath": "/v/t62.36144-24/31187980_1428865564977912_2587641155073010005_n.enc?ccb=11-4&oh=...&oe=688454D7&_nc_sid=5e03e0",
+          "thumbnailSHA256": "PaWYzBXmsHTh+FHkjJTMeXPa8imky4DGwbdgh/N7vIQ=",
+          "thumbnailEncSHA256": "BZYx0+C4R3uJf7ECSh52+ebFXk+AmTRIRgk3wBByUBQ=",
+          "mediaKey": "pM9b9wxXZ7ysYeM/FXSMa6K5g39R7wDOxucc7RfTcSU=",
+          "mediaKeyTimestamp": 1750917578
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "extendedTextMessage": {
+              "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+              "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+              "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida/all purpose flour. Mix and let it cook for a minute only or till light gold...",
+              "title": "White Sauce Pasta Recipe | #shorts",
+              "previewType": 1,
+              "thumbnailHeight": 720,
+              "thumbnailWidth": 406,
+              "thumbnailDirectPath": "/v/t62.36144-24/31187980_1428865564977912_2587641155073010005_n.enc?ccb=11-4&oh=...&oe=688454D7&_nc_sid=5e03e0",
+              "thumbnailSHA256": "PaWYzBXmsHTh+FHkjJTMeXPa8imky4DGwbdgh/N7vIQ=",
+              "thumbnailEncSHA256": "BZYx0+C4R3uJf7ECSh52+ebFXk+AmTRIRgk3wBByUBQ=",
+              "mediaKey": "pM9b9wxXZ7ysYeM/FXSMa6K5g39R7wDOxucc7RfTcSU=",
+              "mediaKeyTimestamp": 1750917578
+            }
+          }
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "aBfunAFeyLGhKA==",
+          "senderTimestamp": 1750915531,
+          "recipientKeyHash": "2gcGAOjTL3BHbg==",
+          "recipientTimestamp": 1750915666
+        },
+        "deviceListMetadataVersion": 2,
+        "messageSecret": "6Q6ins5G1ehjr6AgudIEtRt3/j/PZnekI7Xs/9i0Ilk="
+      }
+    }
+  }
+  

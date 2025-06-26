@@ -1,0 +1,106 @@
+//LOGS OF WHEN MUMMY->ME, AN HYPERLINK OF YOUTUBE 
+
+{
+    "level": "info",
+    "ts": 1750918148.6117055,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "D240F83BB5DBF951B143BD464CB55977",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T06:09:08Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "url",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDA...",
+          "thumbnailDirectPath": "/v/t62.36144-24/..._enc?...",
+          "thumbnailSHA256": "ACplQK3nEGYRB2+eTrjJI5cEfilJwZ2Poen1MVn1reI=",
+          "thumbnailEncSHA256": "tbvQ13qBvak/0ufhjMd16fF4qyOTZm+7U5QqgTctmF0=",
+          "mediaKey": "SXevJ/SKDdePoWCgInW7RlNPhkMDhZZImnipHP9+Bx4=",
+          "mediaKeyTimestamp": 1750918146,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "re9i6YaMbr+gguBjgqt/IyCXxzetUDuugX8fWjc4830="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "matchedText": "https://youtube.com/shorts/b2TqLZRutEY?feature=shared",
+          "description": "White Sauce Pasta Recipe ❤️Recipe:1. In a pan, add 2 tbsp butter and 1 tbsp maida...",
+          "title": "White Sauce Pasta Recipe | #shorts",
+          "previewType": 1,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDA...",
+          "thumbnailDirectPath": "/v/t62.36144-24/..._enc?...",
+          "thumbnailSHA256": "ACplQK3nEGYRB2+eTrjJI5cEfilJwZ2Poen1MVn1reI=",
+          "thumbnailEncSHA256": "tbvQ13qBvak/0ufhjMd16fF4qyOTZm+7U5QqgTctmF0=",
+          "mediaKey": "SXevJ/SKDdePoWCgInW7RlNPhkMDhZZImnipHP9+Bx4=",
+          "mediaKeyTimestamp": 1750918146,
+          "thumbnailHeight": 720,
+          "thumbnailWidth": 406,
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "2gcGAOjTL3BHbg==",
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "aBfunAFeyLGhKA==",
+            "recipientTimestamp": 1750915531
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "re9i6YaMbr+gguBjgqt/IyCXxzetUDuugX8fWjc4830="
+        }
+      }
+    }
+  }
+  

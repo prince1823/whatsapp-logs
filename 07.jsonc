@@ -1,0 +1,149 @@
+//logs when i send a message in group named "Testing 01", in which group members are me and mummy, and the sender is me 
+//with a text message "Heyy this is testing 01 group, we will use this for cloop testing" 
+
+
+{
+    "level": "info",
+    "ts": 1750919203.9673424,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "120363420601915570@g.us",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": true,
+        "BroadcastListOwner": "",
+        "ID": "59B8D0F2F2D31708DDF1FCE1060A2B33",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T06:26:43Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "conversation": "Heyy this is testing 01 group, we will use this for cloop testing",
+        "messageContextInfo": {
+          "messageSecret": "MnijSQdaC1+W+qPuIe7gHquM5CS/6Xk3+0LOh4Me5Dw="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "conversation": "Heyy this is testing 01 group, we will use this for cloop testing",
+        "messageContextInfo": {
+          "messageSecret": "MnijSQdaC1+W+qPuIe7gHquM5CS/6Xk3+0LOh4Me5Dw="
+        }
+      }
+    }
+  }
+  
+
+  //logs when mummy reply with tagging a message of me(member of group testing 01) and giving a reply with text message "Perfect😀"
+  //tagged message is "Yeahhh cool okay sure bye bye"
+  {
+    "level": "info",
+    "ts": 1750920639.100416,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "120363420601915570@g.us",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": true,
+        "BroadcastListOwner": "",
+        "ID": "AB1630DE7058315EF3AE586652956FD4",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-26T06:50:39Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "Perfect 😃",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "F4A3B641BB3E8FF59AB3303C03BA64E4",
+            "participant": "918923325988@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "Yeahhh cool okay sure bye bye"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "messageSecret": "doeq4oRtohyqI3c6S+IrR1cZu4f3q0o+VY7TpBZkA+E="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "Perfect 😃",
+          "previewType": 0,
+          "contextInfo": {
+            "stanzaID": "F4A3B641BB3E8FF59AB3303C03BA64E4",
+            "participant": "918923325988@s.whatsapp.net",
+            "quotedMessage": {
+              "conversation": "Yeahhh cool okay sure bye bye"
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "messageSecret": "doeq4oRtohyqI3c6S+IrR1cZu4f3q0o+VY7TpBZkA+E="
+        }
+      }
+    }
+  }
+  

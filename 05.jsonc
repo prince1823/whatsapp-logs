@@ -1,0 +1,96 @@
+//logs of me->mummy , normal text message "Heyy can you make the lunch by 2pm(edited)"
+
+{
+    "level": "info",
+    "ts": 1750918745.038516,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "BE0676CB0968E0347DABD4BA6F9804F2",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-26T06:19:04Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "1",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "protocolMessage": {
+          "key": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": true,
+            "ID": "E091FD198BA2924B06D5562C823CA601"
+          },
+          "type": 14,
+          "editedMessage": {
+            "conversation": "Heyy can you make the lunch by 2pm"
+          },
+          "timestampMS": 1750918744684
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "protocolMessage": {
+              "key": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": true,
+                "ID": "E091FD198BA2924B06D5562C823CA601"
+              },
+              "type": 14,
+              "editedMessage": {
+                "conversation": "Heyy can you make the lunch by 2pm"
+              },
+              "timestampMS": 1750918744684
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "aBfunAFeyLGhKA==",
+            "senderTimestamp": 1750915531,
+            "recipientKeyHash": "2gcGAOjTL3BHbg==",
+            "recipientTimestamp": 1750915666
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "zOBYoWm7fh4dtq/WOqBTdbVMlgMWUkkAjWU0QpU3OJQ="
+        }
+      }
+    }
+  }
+  

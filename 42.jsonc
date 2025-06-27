@@ -1,0 +1,80 @@
+// logs when i send a view once message to mummy
+// view once only image 
+
+[
+    {
+      "level": "info",
+      "ts": 1751025011.7488863,
+      "caller": "whatsapp/service.go:414",
+      "msg": "Received WhatsApp message",
+      "id": "B325E722DD9D5351127EB0B7CC43189E",
+      "chat": "919897162900@s.whatsapp.net",
+      "sender": "918923325988@s.whatsapp.net",
+      "is_from_me": true
+    },
+    {
+      "level": "info",
+      "ts": 1751025012.464006,
+      "caller": "whatsapp/service.go:291",
+      "msg": "Received WhatsApp event",
+      "EventType": "*events.Receipt",
+      "Payload": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "MessageIDs": ["B325E722DD9D5351127EB0B7CC43189E"],
+        "Timestamp": "2025-06-27T11:50:12Z",
+        "Type": "",
+        "MessageSender": ""
+      }
+    },
+    {
+      "timestamp": "2025-06-27T11:50:24.202Z",
+      "log_level": "warn",
+      "component": "Client",
+      "message": "Unavailable message 34FA6D24A7C4EBE5A3C7B403AEC28E68 from 918923325988@s.whatsapp.net in 919897162900@s.whatsapp.net",
+      "type": "view_once"
+    },
+    {
+      "level": "info",
+      "ts": 1751025024.2034123,
+      "caller": "whatsapp/service.go:291",
+      "msg": "Received WhatsApp event",
+      "EventType": "*events.UndecryptableMessage",
+      "Payload": {
+        "Info": {
+          "Chat": "919897162900@s.whatsapp.net",
+          "Sender": "918923325988@s.whatsapp.net",
+          "IsFromMe": true,
+          "IsGroup": false,
+          "BroadcastListOwner": "",
+          "ID": "34FA6D24A7C4EBE5A3C7B403AEC28E68",
+          "ServerID": 0,
+          "Type": "media",
+          "PushName": "Prince Saxena",
+          "Timestamp": "2025-06-27T11:50:24Z",
+          "Category": "",
+          "Multicast": false,
+          "MediaType": "",
+          "Edit": "",
+          "MsgBotInfo": {
+            "EditType": "",
+            "EditTargetID": "",
+            "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+          },
+          "MsgMetaInfo": {
+            "TargetID": "",
+            "TargetSender": ""
+          },
+          "VerifiedName": null,
+          "DeviceSentMeta": null
+        },
+        "IsUnavailable": true,
+        "UnavailableType": "view_once",
+        "DecryptFailMode": ""
+      }
+    }
+  ]
+  

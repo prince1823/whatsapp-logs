@@ -1,0 +1,110 @@
+// logs when i forward a image to mummy:
+// sender is me:
+// receipent is mummy:
+// image is forwarded from dada's chat
+
+{
+    "level": "info",
+    "ts": 1751024277.2980924,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "AFFCD742A77712B38203DC9704573F3F",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-27T11:37:57Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "image",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "imageMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7118-24/31212451_1130532202435729_3351753584356321892_n.enc?ccb=11-4&oh=01_Q5Aa1wHWDszKEJC99EXt4LUbmA24qudVM0oaY8ruycyr6ZNG-Q&oe=6885ECC0&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "image/jpeg",
+          "fileSHA256": "X+et6sNnTQMXrA9dLY6jsX+COIvkQRbdUr4YO2K3cqI=",
+          "fileLength": 143190,
+          "height": 1600,
+          "width": 720,
+          "mediaKey": "61TOjbXPV6kkMPgWbhFzTGsUupEaBC8I7CsZbVi26Rk=",
+          "fileEncSHA256": "SY9JPUXcRWeNE9FA8js9wofKSeZzX5W+smy0v8DPQDM=",
+          "directPath": "/v/t62.7118-24/31212451_1130532202435729_3351753584356321892_n.enc?ccb=11-4&oh=01_Q5Aa1wHWDszKEJC99EXt4LUbmA24qudVM0oaY8ruycyr6ZNG-Q&oe=6885ECC0&_nc_sid=5e03e0&_nc_hot=1751024276",
+          "mediaKeyTimestamp": 1751024275,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEgAHwMBIgACEQEDEQH/xAArAAEBAQEBAQAAAAAAAAAAAAAEAwACAQUBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAG2tUMX64y1woOyIMW0bFCoEMvDsoJZC19j0ex//xAAsEAABAwIFAQYHAAAAAAAAAAAAAQIDBBEFEhQhNFITMTJCcpEiJDVBUVNk/9oACAEBAAE/AIKZ2njXtnpsab+h5pF/e8xCkyUb39s9SmstNFfpEY1FvYREMU4EhSp8rD6TYTLv8RifAkKfOlPEqdJdzrbCN79jE/p8hT8WD0ipIrks3YVF6TEuBIU00WniRc/hO2iTr9jURW7n+xiU7HUUjbKUvGh9IjE/Jf7XMU4EhT8SHfymXbxDVbcxS2gkKfelhS3lMq2EaYq21BIf/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAgEBPwAv/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAwEBPwAv/9k=",
+          "contextInfo": {
+            "forwardingScore": 1,
+            "isForwarded": true,
+            "pairedMediaType": 0
+          }
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "imageMessage": {
+              "URL": "https://mmg.whatsapp.net/v/t62.7118-24/31212451_1130532202435729_3351753584356321892_n.enc?ccb=11-4&oh=01_Q5Aa1wHWDszKEJC99EXt4LUbmA24qudVM0oaY8ruycyr6ZNG-Q&oe=6885ECC0&_nc_sid=5e03e0&mms3=true",
+              "mimetype": "image/jpeg",
+              "fileSHA256": "X+et6sNnTQMXrA9dLY6jsX+COIvkQRbdUr4YO2K3cqI=",
+              "fileLength": 143190,
+              "height": 1600,
+              "width": 720,
+              "mediaKey": "61TOjbXPV6kkMPgWbhFzTGsUupEaBC8I7CsZbVi26Rk=",
+              "fileEncSHA256": "SY9JPUXcRWeNE9FA8js9wofKSeZzX5W+smy0v8DPQDM=",
+              "directPath": "/v/t62.7118-24/31212451_1130532202435729_3351753584356321892_n.enc?ccb=11-4&oh=01_Q5Aa1wHWDszKEJC99EXt4LUbmA24qudVM0oaY8ruycyr6ZNG-Q&oe=6885ECC0&_nc_sid=5e03e0&_nc_hot=1751024276",
+              "mediaKeyTimestamp": 1751024275,
+              "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEgAHwMBIgACEQEDEQH/xAArAAEBAQEBAQAAAAAAAAAAAAAEAwACAQUBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAG2tUMX64y1woOyIMW0bFCoEMvDsoJZC19j0ex//xAAsEAABAwIFAQYHAAAAAAAAAAAAAQIDBBEFEhQhNFITMTJCcpEiJDVBUVNk/9oACAEBAAE/AIKZ2njXtnpsab+h5pF/e8xCkyUb39s9SmstNFfpEY1FvYREMU4EhSp8rD6TYTLv8RifAkKfOlPEqdJdzrbCN79jE/p8hT8WD0ipIrks3YVF6TEuBIU00WniRc/hO2iTr9jURW7n+xiU7HUUjbKUvGh9IjE/Jf7XMU4EhT8SHfymXbxDVbcxS2gkKfelhS3lMq2EaYq21BIf/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAgEBPwAv/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAwEBPwAv/9k=",
+              "contextInfo": {
+                "forwardingScore": 1,
+                "isForwarded": true,
+                "pairedMediaType": 0
+              }
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "eC8ii0uiMBrrMg==",
+            "senderTimestamp": 1751024238,
+            "recipientTimestamp": 1750915667
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "xS7ghfbSs7UXCIJ2jP39IZYNRUUD7Okdmk1P0uv+tTE="
+        }
+      }
+    }
+  }
+  

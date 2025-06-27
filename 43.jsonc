@@ -1,0 +1,71 @@
+// logs when i send a view once only → videos
+// sender me , receiver mummy
+[
+    {
+      "timestamp": "2025-06-27T12:00:07.297Z",
+      "log_level": "warn",
+      "component": "Client",
+      "message": "Unavailable message CB3DB31D3438108FDDD9D6C36224A554 from 918923325988@s.whatsapp.net in 919897162900@s.whatsapp.net",
+      "type": "view_once"
+    },
+    {
+      "level": "info",
+      "ts": 1751025607.297329,
+      "caller": "whatsapp/service.go:291",
+      "msg": "Received WhatsApp event",
+      "EventType": "*events.UndecryptableMessage",
+      "Payload": {
+        "Info": {
+          "Chat": "919897162900@s.whatsapp.net",
+          "Sender": "918923325988@s.whatsapp.net",
+          "IsFromMe": true,
+          "IsGroup": false,
+          "BroadcastListOwner": "",
+          "ID": "CB3DB31D3438108FDDD9D6C36224A554",
+          "ServerID": 0,
+          "Type": "media",
+          "PushName": "Prince Saxena",
+          "Timestamp": "2025-06-27T12:00:07Z",
+          "Category": "",
+          "Multicast": false,
+          "MediaType": "",
+          "Edit": "",
+          "MsgBotInfo": {
+            "EditType": "",
+            "EditTargetID": "",
+            "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+          },
+          "MsgMetaInfo": {
+            "TargetID": "",
+            "TargetSender": ""
+          },
+          "VerifiedName": null,
+          "DeviceSentMeta": null
+        },
+        "IsUnavailable": true,
+        "UnavailableType": "view_once",
+        "DecryptFailMode": ""
+      }
+    },
+    {
+      "level": "info",
+      "ts": 1751025607.8352864,
+      "caller": "whatsapp/service.go:291",
+      "msg": "Received WhatsApp event",
+      "EventType": "*events.Receipt",
+      "Payload": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "MessageIDs": [
+          "CB3DB31D3438108FDDD9D6C36224A554"
+        ],
+        "Timestamp": "2025-06-27T12:00:07Z",
+        "Type": "",
+        "MessageSender": ""
+      }
+    }
+  ]
+  

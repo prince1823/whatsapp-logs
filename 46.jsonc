@@ -1,0 +1,88 @@
+// logs when she sends a message and i react with some emoji
+
+{
+    "level": "info",
+    "ts": 1751267880.055176,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "2E8AEAA9FED3BD5710667B4523E6454C",
+        "ServerID": 0,
+        "Type": "reaction",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-30T07:18:00Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "reactionMessage": {
+          "key": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": false,
+            "ID": "135F0FA0B4FC3B5BC92F13E206F705E9"
+          },
+          "text": "👍",
+          "senderTimestampMS": 1751267879909
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "reactionMessage": {
+              "key": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": false,
+                "ID": "135F0FA0B4FC3B5BC92F13E206F705E9"
+              },
+              "text": "👍",
+              "senderTimestampMS": 1751267879909
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "v527eHqUY/5EBQ==",
+            "senderTimestamp": 1751267338,
+            "recipientTimestamp": 1750915667
+          },
+          "deviceListMetadataVersion": 2
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,99 @@
+// when i send a text message to mummy with disppearing messages after 24 hours enabled in my device
+
+{
+    "level": "info",
+    "ts": 1751268279.7672732,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "35F70788FEB37BD990B6C59215ABB046",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-30T07:24:39Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "Hello how are you ?",
+          "previewType": 0,
+          "contextInfo": {
+            "expiration": 86400,
+            "ephemeralSettingTimestamp": 1751268120,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 1,
+              "initiatedByMe": true
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "extendedTextMessage": {
+              "text": "Hello how are you ?",
+              "previewType": 0,
+              "contextInfo": {
+                "expiration": 86400,
+                "ephemeralSettingTimestamp": 1751268120,
+                "disappearingMode": {
+                  "initiator": 0,
+                  "trigger": 1,
+                  "initiatedByMe": true
+                }
+              },
+              "inviteLinkGroupTypeV2": 0
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "v527eHqUY/5EBQ==",
+            "senderTimestamp": 1751267338,
+            "recipientTimestamp": 1750915667
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "p/s7mlrKGVvOAlUSrzCeuyd44J2sgCtD/tBkKFr2XRI="
+        }
+      }
+    }
+  }
+  

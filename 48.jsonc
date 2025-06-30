@@ -1,0 +1,99 @@
+// when mummy sends an text message to me with disappearing messages after 7 days in her device
+{
+    "level": "info",
+    "ts": 1751268448.0766337,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "919897162900@s.whatsapp.net",
+        "IsFromMe": false,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "D5354C36D72B3A8B2C93976E95733AB3",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Soni Saxena",
+        "Timestamp": "2025-06-30T07:27:28Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "I am fine",
+          "previewType": 0,
+          "contextInfo": {
+            "expiration": 604800,
+            "ephemeralSettingTimestamp": 1751268423,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 1,
+              "initiatedByMe": true
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "v527eHqUY/5EBQ==",
+            "recipientTimestamp": 1751267338
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "pJp5aaxN5h2yScbDQP3VrY9DLeCt9afdN1nDEoObXrU="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "I am fine",
+          "previewType": 0,
+          "contextInfo": {
+            "expiration": 604800,
+            "ephemeralSettingTimestamp": 1751268423,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 1,
+              "initiatedByMe": true
+            }
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderTimestamp": 1750915666,
+            "recipientKeyHash": "v527eHqUY/5EBQ==",
+            "recipientTimestamp": 1751267338
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "pJp5aaxN5h2yScbDQP3VrY9DLeCt9afdN1nDEoObXrU="
+        }
+      }
+    }
+  }
+  

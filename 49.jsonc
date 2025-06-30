@@ -1,0 +1,79 @@
+// BROADCAST MESSAGE:
+// when i send a broadcast message with 3 receipents (johri, mummy , papa)
+// and the message is"this is testing 01"
+
+
+{
+    "level": "info",
+    "ts": 1751268869.8304152,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "1751268799@broadcast",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": true,
+        "BroadcastListOwner": "",
+        "ID": "5D08DFA636D38FFEBAA456EC799A55EF",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-06-30T07:34:29Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": null
+      },
+      "Message": {
+        "extendedTextMessage": {
+          "text": "This is testing message 01",
+          "previewType": 0,
+          "contextInfo": {
+            "ephemeralSharedSecret": "pYQXQEa+CnzhCyHV4hGc1xlD1qcJXyWTv8QAHn1Mpcc="
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "messageSecret": "tC1UzhAnD3fK4D7oPwKrcS92jel3On3mnefsQqtWCJU="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "extendedTextMessage": {
+          "text": "This is testing message 01",
+          "previewType": 0,
+          "contextInfo": {
+            "ephemeralSharedSecret": "pYQXQEa+CnzhCyHV4hGc1xlD1qcJXyWTv8QAHn1Mpcc="
+          },
+          "inviteLinkGroupTypeV2": 0
+        },
+        "messageContextInfo": {
+          "messageSecret": "tC1UzhAnD3fK4D7oPwKrcS92jel3On3mnefsQqtWCJU="
+        }
+      }
+    }
+  }
+  

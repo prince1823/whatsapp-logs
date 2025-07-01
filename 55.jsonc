@@ -1,0 +1,125 @@
+{
+    "level": "info",
+    "ts": 1751357796.6141386,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "ADA55906C948A0F026EC746FD42331E8",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-07-01T08:16:36Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "document",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "documentMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7119-24/21295957_610672762061869_1725474402232000547_n.enc?ccb=11-4&oh=01_Q5Aa1wEcpVOf6tL2EnyOap5R_9K_UksCS3uJb_AdVkiILFTY0w&oe=688B0797&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "application/pdf",
+          "fileSHA256": "NXQVajw4rmYe/biFxoSPFxk3FTDCC9MXN49BUxsgslE=",
+          "fileLength": 387135,
+          "pageCount": 2,
+          "mediaKey": "V/DLBjXhGO/0XVSWDBoiAF1jPPvWdQOHUXmpiNHzm8s=",
+          "fileName": "AMBUJ SAXENA.pdf",
+          "fileEncSHA256": "rz1FOSYZzr4hwKx/lvZLKZN2aAu4F4FeLAVl1apFf8s=",
+          "directPath": "/v/t62.7119-24/21295957_610672762061869_1725474402232000547_n.enc?ccb=11-4&oh=01_Q5Aa1wEcpVOf6tL2EnyOap5R_9K_UksCS3uJb_AdVkiILFTY0w&oe=688B0797&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1751352355,
+          "thumbnailDirectPath": "/v/t62.36145-24/11811130_747093237909535_6025393509102787211_n.enc?ccb=11-4&oh=01_Q5Aa1wFlc4S5BaOE367HU9CZkrETUPh3msCXnTSP4AQnYe0ePw&oe=688B03CB&_nc_sid=5e03e0",
+          "thumbnailSHA256": "Tuam1z0ave7qqUmczqxvrzcyEB74hRy+qVjRl7qMslo=",
+          "thumbnailEncSHA256": "QXhLOnlJlEEEmBOiQNXnyc9YfD2rzBLflI6QH2EmROQ=",
+          "JPEGThumbnail": "[base64 string truncated]",
+          "contextInfo": {
+            "expiration": 86400,
+            "ephemeralSettingTimestamp": 1751357414,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 1,
+              "initiatedByMe": true
+            }
+          },
+          "thumbnailHeight": 480,
+          "thumbnailWidth": 405,
+          "caption": "This is MRI report of vasu."
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "documentMessage": {
+              "URL": "https://mmg.whatsapp.net/v/t62.7119-24/21295957_610672762061869_1725474402232000547_n.enc?ccb=11-4&oh=01_Q5Aa1wEcpVOf6tL2EnyOap5R_9K_UksCS3uJb_AdVkiILFTY0w&oe=688B0797&_nc_sid=5e03e0",
+              "mimetype": "application/pdf",
+              "fileSHA256": "NXQVajw4rmYe/biFxoSPFxk3FTDCC9MXN49BUxsgslE=",
+              "fileLength": 387135,
+              "pageCount": 2,
+              "mediaKey": "V/DLBjXhGO/0XVSWDBoiAF1jPPvWdQOHUXmpiNHzm8s=",
+              "fileName": "AMBUJ SAXENA.pdf",
+              "fileEncSHA256": "rz1FOSYZzr4hwKx/lvZLKZN2aAu4F4FeLAVl1apFf8s=",
+              "directPath": "/v/t62.7119-24/21295957_610672762061869_1725474402232000547_n.enc?ccb=11-4&oh=01_Q5Aa1wEcpVOf6tL2EnyOap5R_9K_UksCS3uJb_AdVkiILFTY0w&oe=688B0797&_nc_sid=5e03e0",
+              "mediaKeyTimestamp": 1751352355,
+              "thumbnailDirectPath": "/v/t62.36145-24/11811130_747093237909535_6025393509102787211_n.enc?ccb=11-4&oh=01_Q5Aa1wFlc4S5BaOE367HU9CZkrETUPh3msCXnTSP4AQnYe0ePw&oe=688B03CB&_nc_sid=5e03e0",
+              "thumbnailSHA256": "Tuam1z0ave7qqUmczqxvrzcyEB74hRy+qVjRl7qMslo=",
+              "thumbnailEncSHA256": "QXhLOnlJlEEEmBOiQNXnyc9YfD2rzBLflI6QH2EmROQ=",
+              "JPEGThumbnail": "[base64 string truncated]",
+              "contextInfo": {
+                "expiration": 86400,
+                "ephemeralSettingTimestamp": 1751357414,
+                "disappearingMode": {
+                  "initiator": 0,
+                  "trigger": 1,
+                  "initiatedByMe": true
+                }
+              },
+              "thumbnailHeight": 480,
+              "thumbnailWidth": 405,
+              "caption": "This is MRI report of vasu."
+            }
+          }
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "spyQ5mZ9L/MjPA==",
+          "senderTimestamp": 1751354405,
+          "recipientTimestamp": 1750915667
+        },
+        "deviceListMetadataVersion": 2,
+        "messageSecret": "XdsGKrhmmxm8ycjD5pMwndeq1+r+MMNLc5biVzYM8u8="
+      }
+    }
+  }
+  

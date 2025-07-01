@@ -1,0 +1,56 @@
+{
+    "level": "info",
+    "ts": 1751357113.7042987,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "D177B31ED552EECF54BAD4FA54312188",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-07-01T08:05:13Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "video",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "videoMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7161-24/19433957_777979061264575_7653473214037979377_n.enc?ccb=11-4&oh=01_Q5Aa1wHrGb7X67rR-zfNwDkH8aqWxVas02QA77ByJwAfY1bsDA&oe=688B209C&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "video/mp4",
+          "fileSHA256": "Br6IVITi4Pw3CRB64S2j5t6zBPDm0EIXqAuMzbT8ffk=",
+          "fileLength": 4762864,
+          "seconds": 70,
+          "mediaKey": "i+/V+yRhuoGBeGL6BIuDkhLJ9nabRz35OwTqml1mL4g=",
+          "caption": "This video is amazing",
+          "height": 960,
+          "width": 540,
+          "fileEncSHA256": "4Rn1pvyDeEat1vIrtY79rT4RihGknGpBo2rDExDDQPI=",
+          "directPath": "/v/t62.7161-24/19433957_777979061264575_7653473214037979377_n.enc?ccb=11-4&oh=01_Q5Aa1wHrGb7X67rR-zfNwDkH8aqWxVas02QA77ByJwAfY1bsDA&oe=688B209C&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1751357110
+        }
+      }
+    }
+  }
+  

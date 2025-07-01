@@ -1,0 +1,121 @@
+{
+    "level": "info",
+    "ts": 1751357070.8718958,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "DE463746A6D216BCC2657A90CB313A7E",
+        "ServerID": 0,
+        "Type": "media",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-07-01T08:04:30Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "image",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "imageMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.7118-24/32162025_1400428517839572_9027437850084194338_n.enc?ccb=11-4&oh=01_Q5Aa1wE3FYB3GgFj8YDYkFIUlkgqGK0ysquKiCnyXj8gtiii2w&oe=688AEC18&_nc_sid=5e03e0&mms3=true",
+          "mimetype": "image/jpeg",
+          "caption": "This is prescription suggested by doctor Maheshwari",
+          "fileSHA256": "ClRW0FkvOffR4N3LyspGuWLEpjftFRXJMOGfqLFWmvM=",
+          "fileLength": 81259,
+          "height": 1280,
+          "width": 720,
+          "mediaKey": "o4QMD/sEd3zX9kYw4OP6p+g64zK7DKz07su4OHhZb08=",
+          "fileEncSHA256": "PSclXaioYcdf2cHHBOEkoZp6O/i0APccW+ap97B8B+w=",
+          "directPath": "/v/t62.7118-24/32162025_1400428517839572_9027437850084194338_n.enc?ccb=11-4&oh=01_Q5Aa1wE3FYB3GgFj8YDYkFIUlkgqGK0ysquKiCnyXj8gtiii2w&oe=688AEC18&_nc_sid=5e03e0",
+          "mediaKeyTimestamp": 1751351317,
+          "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/... (truncated)",
+          "contextInfo": {
+            "expiration": 604800,
+            "ephemeralSettingTimestamp": 1751268423,
+            "disappearingMode": {
+              "initiator": 0,
+              "trigger": 0
+            },
+            "pairedMediaType": 0
+          },
+          "scansSidecar": "uJEMwDQJRd9JrSq+h770O98Ihix3CaVJ3m5sTalw2b0gk6UVu5hfEA==",
+          "scanLengths": [8423, 30717, 15973, 26146],
+          "midQualityFileSHA256": "chH4SgjDmOT3NQwGJ6UEBCfYZe0yeAZVjige0XHUgrg="
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "imageMessage": {
+              "URL": "https://mmg.whatsapp.net/v/t62.7118-24/32162025_1400428517839572_9027437850084194338_n.enc?ccb=11-4&oh=01_Q5Aa1wE3FYB3GgFj8YDYkFIUlkgqGK0ysquKiCnyXj8gtiii2w&oe=688AEC18&_nc_sid=5e03e0&mms3=true",
+              "mimetype": "image/jpeg",
+              "caption": "This is prescription suggested by doctor Maheshwari",
+              "fileSHA256": "ClRW0FkvOffR4N3LyspGuWLEpjftFRXJMOGfqLFWmvM=",
+              "fileLength": 81259,
+              "height": 1280,
+              "width": 720,
+              "mediaKey": "o4QMD/sEd3zX9kYw4OP6p+g64zK7DKz07su4OHhZb08=",
+              "fileEncSHA256": "PSclXaioYcdf2cHHBOEkoZp6O/i0APccW+ap97B8B+w=",
+              "directPath": "/v/t62.7118-24/32162025_1400428517839572_9027437850084194338_n.enc?ccb=11-4&oh=01_Q5Aa1wE3FYB3GgFj8YDYkFIUlkgqGK0ysquKiCnyXj8gtiii2w&oe=688AEC18&_nc_sid=5e03e0",
+              "mediaKeyTimestamp": 1751351317,
+              "JPEGThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/... (truncated)",
+              "contextInfo": {
+                "expiration": 604800,
+                "ephemeralSettingTimestamp": 1751268423,
+                "disappearingMode": {
+                  "initiator": 0,
+                  "trigger": 0
+                },
+                "pairedMediaType": 0
+              },
+              "scansSidecar": "uJEMwDQJRd9JrSq+h770O98Ihix3CaVJ3m5sTalw2b0gk6UVu5hfEA==",
+              "scanLengths": [8423, 30717, 15973, 26146],
+              "midQualityFileSHA256": "chH4SgjDmOT3NQwGJ6UEBCfYZe0yeAZVjige0XHUgrg="
+            }
+          }
+        },
+        "messageContextInfo": {
+          "deviceListMetadata": {
+            "senderKeyHash": "spyQ5mZ9L/MjPA==",
+            "senderTimestamp": 1751354405,
+            "recipientTimestamp": 1750915667
+          },
+          "deviceListMetadataVersion": 2,
+          "messageSecret": "3eEtiTxPrQP+sNREIP2WIFHniNt/EIG0z9c7jVp4tQg="
+        }
+      }
+    }
+  }
+  

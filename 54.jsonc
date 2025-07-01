@@ -1,0 +1,86 @@
+{
+    "level": "info",
+    "ts": 1751357447.3011127,
+    "caller": "whatsapp/service.go:291",
+    "msg": "Received WhatsApp event",
+    "EventType": "*events.Message",
+    "Payload": {
+      "Info": {
+        "Chat": "919897162900@s.whatsapp.net",
+        "Sender": "918923325988@s.whatsapp.net",
+        "IsFromMe": true,
+        "IsGroup": false,
+        "BroadcastListOwner": "",
+        "ID": "E4FFA6DA4CD8D09A887BA951D4D10E59",
+        "ServerID": 0,
+        "Type": "text",
+        "PushName": "Prince Saxena",
+        "Timestamp": "2025-07-01T08:10:47Z",
+        "Category": "",
+        "Multicast": false,
+        "MediaType": "",
+        "Edit": "",
+        "MsgBotInfo": {
+          "EditType": "",
+          "EditTargetID": "",
+          "EditSenderTimestampMS": "0001-01-01T00:00:00Z"
+        },
+        "MsgMetaInfo": {
+          "TargetID": "",
+          "TargetSender": ""
+        },
+        "VerifiedName": null,
+        "DeviceSentMeta": {
+          "DestinationJID": "919897162900@s.whatsapp.net",
+          "Phash": ""
+        }
+      },
+      "Message": {
+        "keepInChatMessage": {
+          "key": {
+            "remoteJID": "919897162900@s.whatsapp.net",
+            "fromMe": true,
+            "ID": "EDF47CA1ADBBCDE971B34CC38DFE8EC8"
+          },
+          "keepType": 1,
+          "timestampMS": 1751357446920
+        }
+      },
+      "IsEphemeral": false,
+      "IsViewOnce": false,
+      "IsViewOnceV2": false,
+      "IsViewOnceV2Extension": false,
+      "IsDocumentWithCaption": false,
+      "IsLottieSticker": false,
+      "IsEdit": false,
+      "SourceWebMsg": null,
+      "UnavailableRequestID": "",
+      "RetryCount": 0,
+      "NewsletterMeta": null,
+      "RawMessage": {
+        "deviceSentMessage": {
+          "destinationJID": "919897162900@s.whatsapp.net",
+          "message": {
+            "keepInChatMessage": {
+              "key": {
+                "remoteJID": "919897162900@s.whatsapp.net",
+                "fromMe": true,
+                "ID": "EDF47CA1ADBBCDE971B34CC38DFE8EC8"
+              },
+              "keepType": 1,
+              "timestampMS": 1751357446920
+            }
+          }
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "spyQ5mZ9L/MjPA==",
+          "senderTimestamp": 1751354405,
+          "recipientTimestamp": 1750915667
+        },
+        "deviceListMetadataVersion": 2
+      }
+    }
+  }
+  
